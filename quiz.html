@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Làm Trắc Nghiệm - GDQP</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <button class="back-btn" onclick="location.href='index.html'">← Trang chủ</button>
+
+    <div class="background-blobs">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+    </div>
+
+    <main class="container">
+        <div id="quiz-wrapper" class="quiz-container">
+            <div class="quiz-header">
+                <span id="current-q-num">Câu 1/20</span>
+                <span id="timer">00:00</span>
+            </div>
+            <div class="progress-bar">
+                <div id="progress-fill" class="progress-fill"></div>
+            </div>
+
+            <div id="quiz-content">
+                <h3 id="question-text" class="question-text">Đang tải câu hỏi...</h3>
+                <div id="options-grid" class="options-grid">
+                    <!-- Options injected here -->
+                </div>
+            </div>
+
+            <div class="quiz-footer">
+                <button id="btn-prev" class="btn-nav btn-prev" disabled>Quay lại</button>
+                <div class="nav-right">
+                    <button id="btn-next" class="btn-nav btn-next">Tiếp theo</button>
+                    <button id="btn-submit" class="btn-nav btn-submit" style="display: none;">Nộp bài</button>
+                </div>
+            </div>
+
+            <div class="q-grid-container">
+                <p class="q-grid-title">Danh sách câu hỏi:</p>
+                <div id="q-nav-grid" class="q-nav-grid">
+                    <!-- Nav items injected here -->
+                </div>
+            </div>
+        </div>
+
+        <div id="result-wrapper" class="quiz-container result-card" style="display: none;">
+            <h2>Kết quả làm bài</h2>
+            <div class="score-circle">
+                <span id="score-text">0/20</span>
+            </div>
+            <p id="result-message">Chúc bạn ôn tập tốt!</p>
+            <button class="btn-nav btn-next" style="margin-top: 2rem;" onclick="location.reload()">Làm lại</button>
+        </div>
+    </main>
+
+    <script src="questions.js"></script>
+    <script src="quiz.js"></script>
+</body>
+
+</html>
