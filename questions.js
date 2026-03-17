@@ -1,1 +1,1976 @@
-const QUESTIONS_DATA = [{"question": "Câu 1: Bạo loạn lật đổ gồm có những hình thức nào:", "options": ["A. Bạo loạn chính trị kết hợp với đấu tranh vũ trang và gây rối.", "B. Bạo loạn vũ trang kết hợp với bạo loạn chính trị và gây rối.", "C. Bạo loạn chính trị, bạo loạn vũ trang, kết hợp bạo loạn chính trị với vũ trang.", "D. Bạo loạn chính trị kết hợp với gây rối và vũ trang."], "answer": 2}, {"question": "Câu 2: Quan hệ giữa “Diễn biến hoà bình” và bạo loạn lật đổ như thế nào?", "options": ["A.. Diễn biến hoà bình tạo thời cơ cho bạo loạn lật đổ.", "B. Diễn biến hoà bình là nguyên nhân của bạo loạn lật đổ.", "C. Diễn biến hoà bình là quá trình tạo nên những điều kiện, thời cơ cho bạo loạn lật đổ.", "D. Diễn biến hoà bình là quá trình tạo những điều kiện, thời cơ để kẻ thù tiến hành xâm lược."], "answer": 2}, {"question": "Câu 3: Đặc điểm gây rối là gì?", "options": ["A. Diễn ra tự phát do bị các lực lượng quá khích kích động.", "B. Diễn ra bất ngờ, không gian hẹp, thời gian ngắn", "C. Diễn ra tự phát do các thế lực thù địch kích động", "D. Diễn ra tự phát do các phần tử chống đối trong xã hội"], "answer": 2}, {"question": "Câu 4: Địch thường lợi dụng gây rối để làm gì?", "options": ["A. Địch lợi dụng để tập duyệt âm mưu phá hoại, lật đổ chính quyền", "B. Địch lợi dụng để gây bạo loạn, gây chiến tranh", "C. Địch lợi dụng để tập duyệt hoặc mở màn cho bạo loạn lật đổ", "D. Địch lợi dụng để phá hoại, gây rối, mất trật tự an ninh."], "answer": 2}, {"question": "Câu 5: Mục tiêu của các thế lực thù địch thực hiện “Diễn biến hoà bình” chống phá cách mạng Việt Nam", "options": ["A. Xóa bỏ chế độ XHCN, chuyển hoá nước ta theo con đường tư bản chủ nghĩa.", "B. Xoá bỏ sự lãnh đạo của Đảng và buộc ta lệ thuộc vào chúng.", "C. Xoá bỏ vai trò lãnh đạo của Đảng, xoá bỏ chế độ XHCN.", "D. Xoá bỏ nhà nước XHCN và buộc ta chấp nhận các điều kiện của chúng."], "answer": 2}, {"question": "Câu 6: Mục đích thủ đoạn chống phá về kinh tế của các thế lực thù địch đối với nước ta là gì?", "options": ["A. Chuyển hoá nền kinh tế Việt Nam, gây sức ép chính trị, cấm viện trợ, chuyển giao công nghệ.", "B. Ngăn cảm sự giúp đỡ, viện trợ, chuyển giao công nghệ của các nước để gây sức ép chính trị.", "C. Khích lệ kinh tế nhà nước phát triển trở thành thành phần kinh tế chủ đạo.", "D. Chuyển hoá nền kinh tế Việt Nam theo quỹ đạo kinh tế thị trường tư bản chủ nghĩa."], "answer": 3}, {"question": "Câu 7: Một trong những nội dung chống phá về kinh tế của chiến lược “Diễn biến hoà bình”:", "options": ["A. Khích lệ thành phần kinh tế tư nhân phát triển, từng bước làm mất vai trò chủ đạo của thành phần kinh tế Nhà nước.", "B. Khích lệ kinh tế 100% vốn nước ngoài phát triển, làm mất vai trò chủ đạo của thành phần kinh tế Nhà nước.", "C. Khích lệ kinh tế cá thể, tiểu chủ phát triển, làm mất vai trò chủ đạo của thành phần kinh tế Nhà nước.", "D. Khích lệ kinh tế tư bản Nhà nước phát triển, làm mất vai trò chủ đạo của thành phần kinh tế Nhà nước."], "answer": 0}, {"question": "Câu 8: Kẻ thù thực hiện thủ đoạn diễn biến hoà bình phá hoại kinh tế của ta nhằm:", "options": ["A. Đặt ra các điều kiện để buộc ta phải theo quĩ đạo của chúng.", "B. Đặt ra các điều kiện và tạo cớ để tiến công quân sự.", "C. Đặt ra các điều kiện và gây sức ép về chính trị.", "D. Đặt ra các điều kiện để lật đổ hệ thống chính trị."], "answer": 2}, {"question": "Câu 9: Một trong những nội dung kẻ thù thực hiện chống phá ta về chính trị:", "options": ["A. Phá vỡ khối đại đoàn kết toàn dân của các tổ chức chính trị.", "B. Chia rẽ nội bộ, kích động gây rối loạn các tổ chức trong xã hội.", "C. Cô lập Đảng Cộng sản Việt Nam, Nhà nước XHCN với quân đội và nhân dân.", "D. Kích động đòi thực hiện chế độ “đa nguyên chính trị, đa Đảng đối lập”."], "answer": 3}, {"question": "Câu 10: Một trong những nội dung chống phá về chính trị trong chiến lược “Diễn biến hoà bình”", "options": ["A. Đối lập Chủ nghĩa Mác - Lênin và tư tưởng Hồ Chí Minh", "B. Phủ định Chủ nghĩa Mác – Lênin, tư tưởng Hồ Chí Minh và đường lối của Đảng", "C. Đối lập nhiệm vụ kinh tế- xã hội và quốc phòng – an ninh", "D. Chia rẽ mối quan hệ giữa Đảng với nhân dân và khối đại đoàn kết toàn dân tộc"], "answer": 3}, {"question": "Câu 11: Một trong những nội dung chống phá về chính trị trong chiến lược “Diễn biến hoà bình”", "options": ["A. Phá vỡ hệ thống nguyên tắc tổ chức trong bộ máy Nhà nước ta.", "B. Phá vỡ sự thống nhất của các tổ chức, nhất là tổ chức chính trị.", "C. Phá vỡ sự thống nhất của khối đại đoàn kết toàn dân tộc dưới sự lãnh đạo của Đảng.", "D. Phá vỡ nguyên tắc tổ chức của Đảng, nhất là nguyên tắc tập trung dân chủ."], "answer": 3}, {"question": "Câu 12: Chống phá ta về tư tưởng-văn hoá trong chiến lược “DBHB” bạo loạn lật đổ nhằm:", "options": ["A. Xoá bỏ chủ nghĩa Mác – Lê nin và tư tưởng Hồ Chí Minh", "B. Phá hoại sự đoàn kết của toàn đảng, toàn quân, toàn dân.", "C. Phá hoại nguyên tắc tập trung dân chủ của Đảng và Nhà nước ta", "D. Phá hoại, xuyên tạc đường lối đổi mới của Đảng và Nhà nước ta."], "answer": 0}, {"question": "Câu 13: Thực hiện thủ đoạn “Diễn biến hoà bình” về văn hoá, kẻ thù tập trung tấn công:", "options": ["A. Vào truyền thống yêu nước và giá trị của văn hoá Việt Nam.", "B. Vào những sản phẩm văn hoá quý báu của dân tộc Việt Nam.", "C. Vào bản sắc văn hoá và giá trị văn hoá của dân tộc Việt Nam.", "D. Vào nền văn hoá mang bản sắc dân tộc Việt Nam."], "answer": 2}, {"question": "Câu 14: Các thế lực thù địch \"Lợi dụng vấn đề tôn giáo – dân tộc\" để chống phá ta như thế nào?", "options": ["A. Lợi dụng chính sách bình đẳng, tự do dân chủ của ta", "B. Lợi dụng chính sách tự do tôn giáo của Đảng, Nhà nước ta để truyền đạo trái phép.", "C. Lợi dụng những sai sót, sơ hở của Đảng và nhà nước ta để vu cáo.", "D. Triệt để lợi dụng, dân chủ, tự do của ta để tuyên truyền xuyên tạc."], "answer": 1}, {"question": "Câu 15: Thủ đoạn “Diễn biến hoà bình”, kẻ thù triệt để lợi dụng chính sách tự do tôn giáo của Đảng ta để:", "options": ["A. Truyền bá mê tín dị đoan và tư tưởng phản động chống chủ nghĩa xã hội.", "B. Truyền đạo trái phép nhằm thực hiện âm mưu tôn giáo hoá dân tộc.", "C. Truyền bá mê tín dị đoan, tập hợp lực lượng để chống phá cách mạng.", "D. Truyền bá mê tín và tổ chức lực lượng khủng bố."], "answer": 1}, {"question": "Câu 16: Một trong những nội dung kẻ thù lợi dụng để chống phá cách mạng Việt Nam về vấn đề dân tộc là:", "options": ["A. Lợi dụng các mâu thuẫn của đồng bào dân tộc để kích động.", "B. Lợi dụng các hủ tục lạc hậu của đồng bào dân tộc để kích động.", "C. Lợi dụng tư tưởng đòi li khai, tự quyết dân tộc để kích động.", "D. Lợi dụng các mâu thuẫn giữa các dân tộc do nhiều nguyên nhân gây ra."], "answer": 2}, {"question": "Câu 17: Một trong những thủ đoạn chống phá trên lĩnh vực quốc phòng, an ninh:", "options": ["A. Đòi tách quân đội, công  an  với các tổ chức chính trị xã hội khác", "B. Đòi phi chính trị hóa đối với lực lượng quân đội nhân dân Việt Nam", "C. Đòi phủ nhận vai trò lãnh đạo của Đảng trong lĩnh vực quốc phòng, an ninh", "D. Đòi quân đội và công an là lực lượng trung lập, tách rời sự lãnh đạo của đảng"], "answer": 2}, {"question": "Câu 18: Một trong những thủ đoạn chống phá trên lĩnh vực đối ngoại trong chiến lược “Diễn biến hoà bình”:", "options": ["A. Chia rẽ Việt Nam với các nước xã hội chủ nghĩa và các nước tiến bộ.", "B. Chia rẽ Việt Nam với Lào và các nước xã hội chủ nghĩa.", "C. Chia rẽ Việt Nam với Campuchia và các nước tiến bộ.", "D. Chia rẽ Việt Nam với Lào, Campuchia và các nước xã hội chủ nghĩa."], "answer": 3}, {"question": "Câu 19: Trong các thủ đoạn sau, thủ đoạn nào không phải của chiến lược diễn biến hòa bình?", "options": ["A. Xâm nhập về văn hóa", "B. Phát động chiến tranh hạt nhân", "C. Chống phá về chính trị tư tưởng", "D. Vô hiệu hóa lực lượng vũ trang"], "answer": 1}, {"question": "Câu 20: Trong quá trình bạo loạn, bọn phản động tìm mọi cách để:", "options": ["A. Mở rộng quy mô, lực lượng, kêu gọi nước ngoài can thiệp.", "B. Mở rộng phạm vi, quy mô, lực lượng, kêu gọi tài trợ của nước ngoài.", "C. Mở rộng phạm vi, quy mô, lực lượng, đập phá trụ sở, uy hiếp chính quyền địa phương.", "D. Mở rộng phạm vi, quy mô, lực lượng, đập phá trụ sở, lật đổ chính quyền địa phương."], "answer": 1}, {"question": "Câu 21: Nguyên tắc xử lí khi có bạo loạn diễn ra là:", "options": ["A. Nhanh gọn, kiên quyết, linh hoạt, đúng đối tượng, không để lan rộng, kéo dài.", "B. Nhanh gọn, kiên quyết, triệt để đúng đối tượng, không để lan rộng, kéo dài.", "C. Nhanh gọn, linh hoạt, khôn khéo đúng đối tượng, không để lan rộng, kéo dài.", "D. Nhanh gọn, kiên quyết, linh hoạt, mềm dẻo đúng đối tượng, không để lan rộng, kéo dài."], "answer": 0}, {"question": "Câu 22: Một trong những mục tiêu phòng chống chiến lược “Diễn biến hoà bình”:", "options": ["A. Bảo vệ vững chắc nhà nước XHCN.", "B. Giữ vững ổn định chính trị - xã hội của đất nước", "C. Bảo vệ vững chắc độc lập, chủ quyền của quốc gia, dân tộc", "D. Bảo vệ vững chắc toàn vẹn lãnh thổ của Tổ quốc."], "answer": 1}, {"question": "Câu 23: Để góp phần làm thất bại chiến lược “Diễn biến hoà bình”, bạo loạn lật đổ cần nắm vững một trong những mục tiêu?", "options": ["A. Bảo vệ sự  nghiệp công nghiệp hoá, hiện đại hóa đất nước.", "B. Bảo vệ tính mạng và tài sản của nhân dân.", "C. Bảo vệ sự nghiệp đổi mới và lợi ích quốc gia, dân tộc.", "D. Bảo vệ An ninh Chính trị của đất  nước."], "answer": 2}, {"question": "Câu 24: Nhiệm vụ phòng chống chiến lược “Diễn biến hoà bình”, bạo loạn lật đổ được xác định là:", "options": ["A. Nhiệm vụ cấp bách hàng đầu và là nhiệm vụ thường xuyên, lâu dài.", "B. Nhiệm vụ chủ yếu trước mắt trong các nhiệm vụ QP- AN ở nước ta hiện nay.", "C. Nhiệm vụ cơ bản lâu dài trong các nhiệm vụ QP- AN ở nước ta hiện nay.", "D. Nhiệm vụ trọng tâm hàng đầu và là nhiệm vụ thường xuyên, lâu dài."], "answer": 0}, {"question": "Câu 25: Một trong những quan điểm trong đấu tranh phòng chống chiến lược “Diễn biến hoà bình”:", "options": ["A. Là một cuộc đấu tranh dân tộc rất gay go, quyết liệt trên mọi lĩnh vực.", "B. Là một cuộc đấu tranh giai cấp gay go, quyết liệt, lâu dài và phức tạp trên mọi lĩnh vực.", "C. Là cuộc đấu tranh giai cấp; dân tộc gay go, quyết liệt, lâu dài và phức tạp trên mọi lĩnh vực.", "D. Là một cuộc đấu tranh giải quyết vấn đề ai thắng ai giữa chủ nghĩa tư bản và chủ nghĩa xã hội."], "answer": 2}, {"question": "Câu 26: Phòng chống chiến lược “DBHB”, bạo loạn lật đổ cần phát huy sức mạnh tổng hợp của:", "options": ["A. Toàn dân dưới sự lãnh đạo của Đảng Cộng sản Việt Nam.", "B. Toàn dân, toàn quân dưới sự lãnh đạo của Đảng Cộng sản Việt Nam.", "C. Toàn dân, lực lượng vũ trang dưới sự lãnh đạo của Đảng Cộng sản Việt Nam.", "D. Toàn dân, của cả hệ thống chính trị dưới sự lãnh đạo của Đảng Cộng sản Việt Nam."], "answer": 3}, {"question": "Câu 27: Nghị quyết 04 của BCHTW khóa XII chỉ ra bao nhiêu biểu hiện “tự diễn biến”, “tự chuyển hóa”?", "options": ["A. 25 biểu hiện", "B. 27 biểu hiện", "C. 29 biểu hiện", "D. 30 biểu hiện"], "answer": 1}, {"question": "Câu 28: Một trong những giải pháp phòng chống chiến lược “Diễn biến hoà bình”, bạo loạn lật đổ", "options": ["A. Nâng cao nhận thức về âm mưu phá hoại của kẻ thù.", "B. Xây dựng ý thức bảo vệ Tổ quốc cho toàn dân.", "C. Xây dựng các tổ chức chính trị vững mạnh.", "D. Xây dựng các lực lượng vũ trang đặc biệt là công an vững mạnh."], "answer": 1}, {"question": "Câu 29: Một trong những giải pháp phòng chống chiến lược diễn biến hoà bình, bạo loạn lật đổ:", "options": ["A. Đẩy mạnh công nghiệp hoá hiện đại hoá, chống nguy cơ tụt hậu kinh tế.", "B. Xây dựng cơ sở chính trị -  xã hội vững mạnh về mọi mặt.", "C. Đẩy lùi các hủ tục lạc hậu, mê tín dị đoan và các tệ nạn xã hội.", "D. Xây dựng lòng yêu nước cho tuổi trẻ nhất là học sinh, sinh viên."], "answer": 1}, {"question": "Câu 30: Một trong những giải pháp phòng chống chiến lược “Diễn biến hòa bình”, bạo loạn lật đổ:", "options": ["A. Tăng cường quan hệ đối ngoại với các nước, các chế độ chính trị trên thế giới.", "B. Xây dựng, luyện tập các phương án, các tình huống chống “Diễn biến hòa bình”, BLLĐ.", "C. Tăng cường quan hệ với các nước xã hội chủ nghĩa và các đảng cộng sản trên thế giới.", "D. Xây dựng lực lượng chuyên trách để phòng chống “Diễn biến hòa bình”, bạo loạn lật đổ."], "answer": 1}, {"question": "Câu 31: Sinh viên cần làm gì để góp phần làm thất bại chiến lược \"DBHB\", BLLĐ của kẻ thù:", "options": ["A. Luôn học tập phấn đấu, nâng cao cảnh giác tự bảo vệ mình, bảo vệ nơi mình cư trú.", "B. Luôn nâng cao cảnh giác tích cực tham gia các hoạt động phong trào ở nhà trường và địa phương.", "C. Tích cực học tập, rèn luyện, nâng cao tinh thần cảnh giác cách mạng, phát hiện, đấu tranh, ngăn ngừa", "D. Tích cực học tập, rèn luyện tham gia xây dựng thế trận quốc phòng, an ninh nhân dân trong mọi tình huống."], "answer": 2}, {"question": "Câu 32: Xu thế lớn trong mối quan hệ giữa các dân tộc trên thế giới trong giai đoạn hiện nay:", "options": ["A. Toàn cầu hóa diễn biến phức tạp.", "B. Hòa bình hợp tác và phát triển", "C. Xung đột dân tộc, sắc tộc, tôn giáo, chạy đua vũ trang.", "D. Độc lập,tự chủ, tự lực, tự cường, chống can thiệp."], "answer": 1}, {"question": "Câu 33: Quan hệ dân tộc, sắc tộc hiện nay trên thế giới vẫn diễn ra phức tạp ở phạm vi:", "options": ["A. Châu Phi và châu Mỹ Latinh.", "B. Châu Á và châu Âu.", "C. Các nước xã hội chủ nghĩa.", "D. Quốc gia, khu vực và quốc tế."], "answer": 3}, {"question": "Câu 34: Vấn đề dân tộc, sắc tộc đã gây nên những hậu quả nặng nề về lĩnh vực nào?", "options": ["A. Văn hoá, xã hội, đe doạ hoà bình thế gới", "B. Văn hóa, quân sự, chính trị, an ninh toàn bộ khu vực và quốc tế.", "C. Kinh tế, chính trị, văn hoá, xã hội, môi trường cho các quốc gia,", "D. Kinh tế, khủng hoảng kinh tế, tài chính thế giới"], "answer": 2}, {"question": "Câu 35: Một trong những nội dung giải quyết vấn đề dân tộc theo quan điểm của Lênin:", "options": ["A. Các dân tộc phải phân chia đẳng cấp rõ ràng.", "B. Các dân tộc hoàn toàn bình đẳng.", "C. Các dân tộc phải tự trị ly khai.", "D. Các dân tộc phải có nền văn hoá chung."], "answer": 1}, {"question": "Câu 36: Tư tưởng Hồ Chí Minh, về nội dung giải quyết vấn đề dân tộc:", "options": ["A. Phải toàn diện, phong phú, sâu sắc, khoa học và cách mạng.", "B. Phải xây dựng quan hệ tốt đẹp giữa các dân tộc trong đại gia đình các dân tộc Việt Nam.", "C. Phải xây dựng quan hệ tốt đẹp giữa dân tộc Việt Nam với các quốc gia, dân tộc trên thế giới.", "D. Phải bình đẳng, đoàn kết, tôn trọng và giúp đỡ cùng phát triển."], "answer": 0}, {"question": "Câu 37: Đồng bào các dân tộc Jrai, Êđê, BaNa sinh sống chủ yếu ở khu vực nào?", "options": ["A. Các tỉnh Tây Nguyên", "B. Ở các tỉnh miền núi tiếp giáp biên giới", "C. Các tỉnh Nam Trung Bộ", "D. Các tỉnh miền núi phía Bắc"], "answer": 0}, {"question": "Câu 38: Một trong những đặc trưng của các dân tộc Việt Nam là:", "options": ["A.  Là lịch sử đánh giặc ngoại xâm", "B. Có truyền thống đoàn kết, gắn bó xây dựng Quốc gia thống nhất", "C. Đoàn kết gắn bó trong chiến tranh bảo vệ Tổ quốc xã hội chủ nghĩa", "D. Cần cù sáng tạo trong xây dựng đất nước"], "answer": 1}, {"question": "Câu 39: Một trong những đặc trưng của các dân tộc ở Việt Nam là:", "options": ["A. Các dân tộc thiểu số ở Việt Nam cư trú du canh, du cư.", "B. Các dân tộc thiểu số ở Việt Nam cư trú tập trung.", "C. Các dân tộc thiểu số ở Việt Nam cư trú ở rừng núi.", "D. Các dân tộc thiểu số ở Việt Nam cư trú phân tán và xen kẽ."], "answer": 3}, {"question": "Câu 40: Một trong những đặc trưng của các dân tộc ở Việt Nam là:", "options": ["A. Các dân tộc ở nước ta có quy mô dân số và trình độ phát triển cao.", "B. Các dân tộc ở nước ta có quy mô dân số và trình độ phát triển còn hạn chế.", "C. Các dân tộc ở nước ta có quy mô dân số và trình độ phát triển không đều.", "D. Các dân tộc ở nước ta có quy mô dân số và trình độ phát triển đồng đều."], "answer": 2}, {"question": "Câu 41: Thực hiện chính sách dân tộc của Đảng, cần chống các biểu hiện gì?", "options": ["A. Tư tưởng dân tộc lớn, Kì thị, hẹp hòi, chia rẽ dân tộc", "B. Thiếu hiểu biết các phong tục tập quán các dân tộc Việt Nam", "C. Lợi dụng vấn đề dân tộc đòi tự trị gây mất ổn định chính trị.", "D. Lợi dụng vấn đề dân tộc để chống phá khối đại đoàn kết dân tộc"], "answer": 0}, {"question": "Câu 42: Tôn giáo là gì?", "options": ["A. Là một hình thức ý thức xã hội, phản ánh hiện thực khách quan, theo quan niệm hoang đường.", "B. Là một hình thái ý thức xã hội, phản ánh hiện thực khách quan, theo quan niệm hoang đường.", "C. Là một hình thái phản ánh ý thức xã hội, hiện thực khách quan, theo quan niệm hoang đường.", "D. Là sự nhận thức, phản ánh hiện thực khách quan, theo quan điểm hoang đường."], "answer": 1}, {"question": "Câu 43 Tôn giáo là một hình thái ý thức xã hội, phản ánh hiện thực khách quan, theo:", "options": ["A. Trào lưu của xã hội phù hợp với tư tưởng, tình cảm, niềm tin của con người", "B. Quy luật phát triển của đời sống xã hội, được mọi người tin tưởng tham gia", "C. Quan niệm hoang đường, ảo tưởng, phù hợp với tâm lý, hành vi của con người.", "D. Chuẩn mực đạo đức, truyền thống được con người tiếp nhận tin theo"], "answer": 2}, {"question": "Câu 44: Trong đời sống xã hội, tôn giáo là một cộng đồng xã hội có yếu tố nào sau đây?", "options": ["A. Hệ thống tôn giáo với các hoạt động của tu sĩ", "B. Hệ thống giáo lý; nghi lễ và tổ chức tôn giáo", "C. Tín ngưỡng tôn giáo, các hoạt động tôn giáo trong nước", "D. Hệ thống chính trị của tôn giáo và tín ngưỡng."], "answer": 1}, {"question": "Câu 45: Tôn giáo có nguồn gốc từ các yếu tố:", "options": ["A. Kinh tế - xã hội, ý thức và hành vi.", "B. Chính trị xã hội, tinh thần và tâm lý.", "C. Kinh tế - xã hội, nhận thức và tâm lý.", "D. Chính trị - xã hội, kinh tế và tinh thần."], "answer": 2}, {"question": "Câu 46: “Tình cảm, cảm xúc, tâm trạng lo âu, sợ hải…đã dẫn con người đến sự khuất phục”. Nội dung này muốn nói đến nguồn gốc nào của tôn giáo?", "options": ["A. Nguồn gốc nhận thức của tôn giáo.", "B. Nguồn gốc kinh tế - xã hội.", "C. Nguồn gốc tâm lý của tôn giáo.", "D. Nguồn gốc nhận thức, tâm lý."], "answer": 2}, {"question": "Câu 47: Một trong những nguyên nhân làm cho tôn giáo tiếp tục tồn tại và phát triển là gì?", "options": ["A. Con người còn  phụ thuộc vào sự phát triển của khoa học kỹ thuật.", "B.  Con người vẫn chưa làm chủ hoàn toàn tự nhiên, xã hội và tư duy.", "C. Do thiên tai, song thần, động đất…, ảnh hưởng đến dời sống xã hội.", "D. Tất cả a, b,c đều đúng."], "answer": 1}, {"question": "Câu 48: Khi nào thì tôn giáo mất đi?", "options": ["A. Khi những nguồn gốc sinh ra tôn giáo mất đi", "B. Khi con người làm chủ hoàn toàn tự nhiên, xã hội và tư duy.", "C. Khi chế độ CNXH được xây dựng thành công trên phạm vi toàn thế giới.", "D. Tôn giáo không bao giờ mất đi."], "answer": 1}, {"question": "Câu 49: Xung đột giữa các tôn giáo thể hiện tính chất gì của tôn giáo?", "options": ["A. Tính lịch sử .", "B. Tính quần chúng .", "C. Tính chính trị .", "D. Tất cả a, b,c đều đúng."], "answer": 2}, {"question": "Câu 50: Giải quyết vấn đề tôn giáo phải gắn với quá trình nào?", "options": ["A.  Xóa bỏ xã hội cũ, tiến hành đổi mới toàn diện xã hội", "B.  Xây dựng xã hội mới, đồng thời.tiến hành đổi mới toàn diện xã hội cũ", "C. Cải tạo xã hội cũ, xây dựng xã hội mới - xã hội xã hội chủ nghĩa.", "D. Cải tạo xã hội cũ, tiến hành đổi mới toàn diện xã hội"], "answer": 2}, {"question": "Câu 51: Theo quan điểm của Chủ nghĩa Mác - Lênin, giải quyết vấn đề tôn giáo trong cách mạng XHCN là:", "options": ["A. Quán triệt quan điểm tôn trọng luật pháp.", "B. Quán triệt quan điểm lịch sử cụ thể.", "C. Quán triệt quan điểm tôn trọng quần chúng.", "D. Quán triệt quan điểm tôn trọng giáo lý."], "answer": 1}, {"question": "Câu 52: Nội dung cốt lõi của công tác tôn giáo ở Việt Nam là:", "options": ["A. Vận động quần chúng sống “kính chúa yêu nước”.", "B. Vận động quần chúng sống “phúc âm trong lòng dân tộc”.", "C. Vận động quần chúng sống “tốt đời, đẹp đạo”.", "D. Vận động quần chúng sống “từ bi, bác ái”."], "answer": 2}, {"question": "Câu 53: Để vô hiệu hoá sự lợi dụng vấn đề dân tộc, tôn giáo ở Việt Nam, giải pháp chung cơ bản nhất là:", "options": ["A. Thực hiện tốt chính sách đại đoàn kết toàn dân tộc.", "B. Thực hiện tốt chính sách phát triển kinh tế - xã hội.", "C. Thực hiện tốt chính sách xoá đói giảm nghèo.", "D. Thực hiện tốt chính sách đền ơn đáp nghĩa."], "answer": 1}, {"question": "Câu 54: Môi trường là gì?", "options": ["A. Là sản phẩm của tự nhiên và những yếu tố do con người tạo ra.", "B. Là hệ thống các lĩnh vực về tự nhiên, xã hôi có tác động đến con người.", "C. Là hệ thống các yếu tố sẵn có trong tự nhiên có tác động đến con người và sinh vật.", "D. Là hệ thống các yếu tố vật chất tự nhiên và nhân tạo có tác động đối với con người và sinh vật."], "answer": 3}, {"question": "Câu 55: Thành phần môi trường gồm?", "options": ["A. Đất, nước, không khí", "B. Âm thanh, ánh sáng", "C. Sinh vật và các hình thái vật chất khác", "D. Tất cả đều đúng"], "answer": 3}, {"question": "Câu 56: Một trong các nội dung của pháp luật về bảo vệ môi trường là?", "options": ["A. Phòng ngừa, hạn chế các hành vi tác động xấu đến môi trường", "B. Phòng ngừa, hạn chế các tác động xấu đến môi trường", "C. Phòng ngừa các tác động ảnh hưởng đến môi trường sinh thái", "D. Phòng ngừa các hành vi hủy hoại đến lĩnh vực môi trường"], "answer": 1}, {"question": "Câu 57: Một trong các nội dung của pháp luật về bảo vệ môi trường là?", "options": ["A. Khắc phục ô nhiễm, suy thoái, cải thiện, phục hồi môi trường", "B. Phòng ngừa các tác động ảnh hưởng đến môi trường sinh thái", "C. Khai thác, bảo vệ sử dụng có kế hoạch môi trường tài nguyên", "D. Tất cả đều đúng"], "answer": 0}, {"question": "Câu 58: Vai trò của pháp luật trong công tác bảo vệ môi trường là?", "options": ["A. Xây dựng hệ thống các quy chuẩn; tiêu chuẩn môi trường để bảo vệ môi trường.", "B. Qui định trách nhiệm của các tổ chức, cá nhân trong bảo vệ môi trường", "C. Xây dựng hệ thống các văn bản mang tính pháp lý để bảo vệ môi trường", "D. Xây dựng hệ thống các văn bản, qui phạm pháp luật về lĩnh vực môi trường"], "answer": 0}, {"question": "Câu 59: Vai trò của pháp luật trong công tác bảo vệ môi trường là?", "options": ["A. Qui định trách nhiệm của các tổ chức, cá nhân trong bảo vệ môi trường", "B. Giải quyết các tranh chấp liên quan đến bảo vệ môi trường.", "C. Phòng ngừa, hạn chế các hành vi tác động xấu đến môi trường", "D. Khai thác, bảo vệ sử dụng có kế hoạch môi trường tài nguyên"], "answer": 1}, {"question": "Câu 60: Một trong những quy định của pháp luật về bảo vệ môi trường là?", "options": ["A. Qui định về phòng ngừa các tác động ảnh hưởng đến môi trường sinh thái", "B. Qui định các mức phạt cụ thể ảnh hưởng đến bảo vệ môi trường", "C. Pháp luật về tổ chức, quản lý các hoạt động bảo vệ môi trường", "D. Pháp luật về nghiêm cấm các hành vi vi phạm đến bảo vệ môi trường"], "answer": 2}, {"question": "Câu 61: Một trong những quy định của pháp luật về bảo vệ môi trường là?", "options": ["A. Pháp luật xử lý vi phạm trong lĩnh vực bảo vệ môi trường", "B. Pháp luật về nghiêm cấm các hành vi vi phạm đến bảo vệ môi trường", "C. Pháp luật về các mức phạt cụ thể đối với hành vi vi phạm đến bảo vệ môi trường", "D. Pháp luật qui định các hành vi phải chịu trách nhiệm hình sự về bảo vệ môi trường"], "answer": 0}, {"question": "Câu 62: Hình thức vi phạm pháp luật về bảo vệ môi trường là?", "options": ["A. Tội phạm về môi trường và vi phạm hành chính trong lĩnh vực bảo vệ môi trường", "B. Chống người thi hành công vụ trong lĩnh vực bảo vệ môi trường sinh thái", "C. Vi phạm các quy định của pháp luật gây hậu quả về bảo vệ môi trường", "D. Những hành vi có lỗi do cá nhân, tổ chức thực hiện gây hậu quả đến môi trường"], "answer": 0}, {"question": "Câu 63: Nguyên nhân, điều kiện của vi phạm pháp luật về môi trường là?", "options": ["A. Sự nhận thức của các cá nhân về bảo vệ môi trường còn hạn chế", "B. Tuyên truyền của cơ quan Nhà nước về bảo vệ môi trường còn bất cập", "C. Sự phát triển “quá nhanh” và “nóng” của kinh tế - xã hội...", "D. Pháp luật về bảo vệ môi trường, về xử lý hành vi vi phạm chưa đủ mạnh..."], "answer": 2}, {"question": "Câu 64: Nguyên nhân về phía đối tượng vi phạm là?", "options": ["A. Ý thức coi thường pháp luật, không tuân thủ các quy tắc, chuẩn mực xã hội", "B. Thiếu hiểu biết về luật pháp đối với lĩnh vực bảo vệ môi trường", "C. Do vụ lợi của các cá nhân, tổ chức dẫn tới coi thường pháp luật", "D. Do tác động mặt trái của kinh tế thị trường và những hiện tượng tiêu cực khác"], "answer": 0}, {"question": "Câu 65: Phòng, chống vi phạm pháp luật về bảo vệ môi trường là hoạt động:", "options": ["A. Của các cấp, các nghành, các đoàn thể và mọi công dân", "B. Của các cơ quan nhà nước, các tổ chức xã hội và công dân", "C. Của các cơ quan chức năng có nhiệm vụ trong lĩnh vực bảo vệ môi trường", "D. Của Bộ Tài nguyên Môi trường và các cơ quan chuyên trách"], "answer": 1}, {"question": "Câu 66: Cách giải quyết khi vi phạm pháp luật về bảo vệ môi trường xảy ra?", "options": ["A. Hạn chế đến mức thấp nhất hậu quả tác hại", "B. Khắc phục hậu quả, không để ảnh đến môi trường", "C. Điều tra tìm hiểu nguyên nhân, điều kiện của hành vi vi phạm", "D. Đề ra chủ trương, biện pháp khắc phục hậu quả"], "answer": 0}, {"question": "Câu 67: Nội dung, biện pháp phòng, chống vi phạm pháp luật về bảo vệ môi trường:", "options": ["A. Nắm tình hình vi phạm pháp luật về bảo vệ môi trường", "B. Xác định và làm rõ các nguyên nhân, điều kiện của vi phạm", "C. Tổ chức lực lượng tiến hành các hoạt động khắc phục", "D. Tất cả đều đúng"], "answer": 3}, {"question": "Câu 68: Các biện pháp phòng, chống vi phạm pháp luật về bảo vệ môi trường:", "options": ["A. Các biện pháp phòng, chống chung và cụ thể", "B. Sử dụng nhiều biện pháp trong lĩnh vực bảo vệ môi trường", "C. Tuyên truyền các qui định của Nhà nước về bảo vệ môi trường", "D. Thành lập lực lượng chuyên trách trong lĩnh vực bảo vệ môi trường"], "answer": 0}, {"question": "Câu 69: Chủ thể tham gia phòng, chống vi phạm pháp luật về bảo vệ môi trường:", "options": ["A. Là trách nhiệm của các cơ quan, đoàn thể", "B. Là trách nhiệm của các Ban, Ngành được Nhà nước qui định", "C. Là trách nhiệm của toàn xã hội.", "D. Là trách nhiệm của các tổ chức và công dân"], "answer": 2}, {"question": "Câu 70: Trách nhiệm của nhà trường trong phòng, chống vi phạm về bảo vệ môi trường:", "options": ["A. Tổ chức các buổi tuyên truyền về bảo vệ môi trường", "B. Tổ chức các buổi tọa đàm, trao đổi về bảo vệ môi trường", "C. Tổ chức các cuộc thi tìm hiểu về bảo vệ môi trường", "D. Tất cả đều đúng"], "answer": 3}, {"question": "Câu 71: Trách nhiệm của sinh viên trong phòng, chống vi phạm về bảo vệ môi trường:", "options": ["A. Nắm vững các quy định của pháp luật về bảo vệ môi trường", "B. Xây dựng ý thức trách nhiệm trong các hoạt động bảo vệ môi trường", "C. Tham ra tích cực trong các phong trào về bảo vệ môi trường.\u000bD. Tất cả đều đúng"], "answer": null}, {"question": "Câu 72: Pháp luật về bảo đảm trật tự, an toàn giao thông là gì?", "options": ["A. Là một bộ phận của hệ thống pháp luật hành chính nhà nước", "B. Là hệ thống pháp luật của nhà nước qui định về an toàn giao thông", "C. Là một bộ phận của pháp luật qui định các hành vi vi phạm giao thông", "D. Là một bộ phận của pháp luật nước Cộng Hòa Xã Hội Chủ Nghĩa Việt Nam"], "answer": 0}, {"question": "Câu 73: Một trong những vai trò của pháp luật về bảo đảm trật tự, an toàn giao thông?", "options": ["A. Là những qui định của Nhà nước về tổ chức thực hiện bảo đảm TTATGT.", "B. Là ý chí của Nhà nước để chỉ đạo và tổ chức thực hiện bảo đảm TTATGT.", "C. Là những qui định cụ thể của Nhà nước để tổ chức thực hiện TTATGT.", "D. Là một bộ phận của pháp luật qui định các hành vi vi phạm TTATGT."], "answer": 1}, {"question": "Câu 74: Một trong những vai trò của pháp luật về bảo đảm trật tự, an toàn giao thông?", "options": ["A. Là những qui định của Nhà nước về tổ chức thực hiện bảo đảm TTATGT.", "B. Là cơ sở, công cụ thực hiện chức năng quản lý nhà nước về bảo đảm TTATGT", "C. Là cơ sở, pháp lý của nhà nước để điều hành quản lý trong lĩnh vực TTATGT", "D. Là công cụ, pháp lý của nhà nước trong thực hiện về bảo đảm TTATGT"], "answer": 1}, {"question": "Câu 75: Vi phạm pháp luật về bảo đảm trật tự, an toàn giao thông có 2 dạng:", "options": ["A. Vi phạm do chủ quan và vi phạm do khách quan", "B. Vi phạm thông thường và vi phạm nghiêm trọng", "C. Vi phạm hành chính và vi phạm nghiêm trọng", "D. Vi phạm hành chính và vi phạm hình sự"], "answer": 3}, {"question": "Câu 76: Thế nào là vi phạm hành chính?", "options": ["A. Là vi phạm do vô tình, khách quan gây ra", "B. Là hành vi có lỗi mà không phải là tội phạm", "C. Là vi phạm không gây hậu quả nghiêm trọng", "D. Là hành vi có lỗi nhưng do nguyên nhân khách quan"], "answer": 1}, {"question": "Câu 77: Vi phạm hình sự về bảo đảm trật tự, an toàn giao thông là gì?", "options": ["A. Là những hành vi thực hiện cố ý", "B. Là những hành vi đặc biệt nguy hiểm", "C. Là những hành vi nguy hiểm cho xã hội", "D. Là những hành vi gây hậu quả nghiêm trọng"], "answer": 2}, {"question": "Câu 78: Theo điều 260 phạt tù từ 03 năm đến 10 năm, đối với các trường hợp:", "options": ["A. Không có giấy phép lái xe theo quy định;", "B. Có sử dụng rượu, bia nồng độ cồn vượt quá qui định", "C. Bỏ chạy để trốn tránh trách nhiệm...", "D. Tất cả đều đúng"], "answer": 3}, {"question": "Câu 79: Theo điều 260 phạt tù từ 07 năm đến 15 năm, đối với các trường hợp:", "options": ["A. Làm chết 03 người trở lên;", "B. Gây thương tích hoặc gây tổn hại cho sức khỏe của 03 người trở lên...", "C. Gây thiệt hại về tài sản 1.500.000.000 đồng trở lên.", "D. Tất cả đều đúng"], "answer": 3}, {"question": "Câu 80: Dấu hiệu của vi phạm hành chính trong bảo đảm trật tự, an toàn giao thông?", "options": ["A. Hành vi đó là hành vi có lỗi do vô tình, khách quan gây ra", "B. Hành vi đó là hành vi có lỗi nhưng do nguyên nhân khách quan", "C. Hành vi đó là hành vi có lỗi nhưng không gây hậu quả nghiêm trọng", "D. Hành vi đó là hành vi có lỗi được thể hiện dưới hình thức là lỗi cố ý hoặc lỗi vô ý"], "answer": 3}, {"question": "Câu 81: Dấu hiệu của vi phạm hành chính trong bảo đảm trật tự, an toàn giao thông?", "options": ["A. Hành vi đó là hành vi có lỗi nhưng do nguyên nhân khách quan", "B. Hành vi đó là hành vi có lỗi nhưng không gây hậu quả nghiêm trọng", "C. Hành vi đó theo quy định của pháp luật phải bị xử phạt vi phạm hành chính.", "D. Hành vi đó là hành vi có lỗi nhưng chưa đến mức phải bị xử phạt vi phạm hành sự."], "answer": 2}, {"question": "Câu 82: Nguyên nhân, điều kiện của vi phạm pháp luật về trật tự, an toàn giao thông?", "options": ["A. Cơ sở hạ tầng giao thông còn nhiều hạn chế, bất cập", "B. Quản lý của các cơ quan chức năng còn nhiều hạn chế, yếu kém.", "C. Nhận thức về pháp luật của người tham gia giao thông còn hạn chế", "D. Quản lý nhà nước về hoạt động giao thông còn nhiều yếu kém, hạn chế."], "answer": 3}, {"question": "Câu 83: Nguyên nhân, điều kiện của vi phạm pháp luật về trật tự, an toàn giao thông?", "options": ["A. Cơ sở hạ tầng giao thông còn nhiều hạn chế, bất cập", "B. Tác động tiêu cực của các yếu tố thiên nhiên, môi trường", "C. Quản lý của các cơ quan chức năng còn nhiều hạn chế, yếu kém.", "D. Nhận thức về pháp luật của người tham gia giao thông còn hạn chế"], "answer": 1}, {"question": "Câu 84: Phòng ngừa vi phạm pháp luật về bảo đảm trật tự, an toàn giao thông là:", "options": ["A. Hoạt động của lực lượng cảnh sát giao thông", "B. Hoạt động của các lực lượng đảm bảo an toàn giao thông", "C. Hoạt động của cơ quan có thẩm quyền đảm bảo an toàn giao thông", "D. Hoạt động của các cơ quan Nhà nước, các tổ chức xã hội và công dân"], "answer": 3}, {"question": "Câu 85: Đấu tranh chống vi phạm pháp luật về bảo đảm trật tự, an toàn giao thông là:", "options": ["A. Hoạt động của các cơ quan quản lý nhà nước có thẩm quyền", "B. Hoạt động của lực lượng công an và lực lượng cảnh sát giao thông", "C. Hoạt động của các tổ chức, các ngành, các cấp và toàn xã hội", "D. Hoạt động của cơ quan có thẩm quyền đảm bảo an toàn giao thông"], "answer": 0}, {"question": "Câu 86: Trách nhiệm của sinh viên trong phòng, chống vi phạm pháp luật về bảo đảm trật tự, an toàn giao thông:", "options": ["A. Nêu cao ý thức chấp hành luật giao thông", "B. Tích cực tham gia xây dựng văn hóa giao thông", "C. Có trách nhiệm trong việc đảm bảo an toàn giao thông", "D. Tất cả đều đúng.", "A. Thực hiện biện pháp hành chính", "B. Thực hiện chuẩn mực xã hội theo quan điểm đạo đức", "C. Cụ thể hóa các chế định bảo vệ quyền con người", "D. Theo phong tục, thói quen để bảo vệ con người"], "answer": 6}, {"question": "Câu 88: Bảo vệ con người là:", "options": ["A. Bảo vệ tính mạng của con người", "B. Bảo vệ sức khỏe của con người", "C. Bảo vệ danh dự nhân phẩm của con người", "D. Tất cả đều đúng"], "answer": 3}, {"question": "Câu 89: Danh dự, nhân phẩm của con người được hình thành như thế nào?", "options": ["A. Hình thành trong quá trình hoạt động thực tiễn xã hội của con người", "B. Hình thành khi con người mới sinh ra", "C. Hình thành qua quá trình học tập", "D. Tất cả đều đúng"], "answer": 0}, {"question": "Câu 90: Theo luật Hình sự Việt Nam các tội xâm phạm DDNP của con người gồm:", "options": ["A. Các tội xâm phạm tình dục; Các tội mua bán người,", "B. Các tội làm nhục người khác và nhóm tội khác", "C. Lây truyền HIV; chống người thi hành công vụ", "D. Tất cả đều đúng"], "answer": 3}, {"question": "Câu 91: Có mấy nguyên nhân, điều kiện của tình trạng phạm DDNP?", "options": ["A. Có 6 nguyên nhân, điều kiện", "B. Có 7 nguyên nhân, điều kiện", "C. Có 8 nguyên nhân, điều kiện", "D. Có 9 nguyên nhân, điều kiện"], "answer": 3}, {"question": "Câu 92: Trong phòng chống tội phạm thì:", "options": ["A. Phòng ngừa mang ý nghĩa chính trị - xã hội, giữ vững an ninh chính trị, trật tự xã hội.", "B. Phòng ngừa mang ý nghĩa kinh tế sâu sắc, tiết kiệm tiền của của Nhà nước và của nhân dân.", "C. Phòng ngừa mang tính đồng bộ, hệ thống kết hợp giữa nhà nước với tổ chức xã hội và công dân.", "D. Phòng ngừa là phương hướng chính, là tư tưởng chỉ đạo, phòng ngừa không để tội phạm xảy ra."], "answer": 3}, {"question": "Câu 93: Ý nghĩa chính trị, xã hội của công tác phòng chống tội phạm?", "options": ["A. Giúp giữ vững an ninh quốc gia, giữ gìn trật tự an toàn xã hội.", "B. Trấn áp tội phạm, xây dựng địa phương trong sạch, lành mạnh", "C. Khắc phục, thủ tiêu những nguyên nhân của tình trạng phạm tội.", "D. Hạn chế đến mức thấp nhất hậu quả, tác hại khi tội phạm xảy ra."], "answer": 0}, {"question": "Câu 94: Làm tốt công tác phòng ngừa tội phạm có ý nghĩa kinh tế gì?", "options": ["A. Tiết kiệm ngân sách, sức lao động của nhân viên Nhà nước, của công dân", "B. Bảo đảm cho nhân dân được an tâm tham gian lao động sản xuất", "C. Không cần phải tổ chức lực lượng phòng chống tội phạm tốn kém.", "D. Không cần giải quyết các vấn đề liên quan đến phòng chống tội phạm"], "answer": 0}, {"question": "Câu 95: Công tác phòng chống tội phạm cần tiến hành theo hướng nào?", "options": ["A. Phát hiện, khắc phục, hạn chế và đi đến thủ tiêu các hiện tượng xã hội tiêu cực", "B. Xác định đúng nguyên nhân, điều kiện của tình trạng tội phạm.", "C. Xác định đúng nghuyên nhân điều kiện cấu thành tội phạm", "D. Xác định đúng chủ trương, từng bước xoá bỏ nguyên nhân, điều kiện của tội phạm."], "answer": 0}, {"question": "Câu 96: Mục đích của công tác phòng ngừa tội phạm:", "options": ["A. Là tìm ra các nguyên nhân, điều kiện của tình trạng phạm tội", "B. Là ngăn chặn, hạn chế, làm giảm từng bước tiến tới loại trừ tội phạm", "C. Là khắc phục, thủ tiêu các nguyên nhân, điều kiện của tình trạng phạm tội", "D. Là kiên quyết triệt để thủ tiêu tội phạm."], "answer": 2}, {"question": "Câu 97: Phòng chống tệ nạn XH là trách nhiệm của chủ thể nào?", "options": ["A. Cơ quan công an, an ninh nhân dân", "B. Quốc hội, hội đồng nhân dân các cấp.", "C. Công an, cảnh sát, Gia đình, nhà trường", "D. Công an, cảnh sát, toà án, viện kiểm sát."], "answer": 1}, {"question": "Câu 98: Chức năng của Chính phủ và Uỷ ban nhân dân trong phòng chống tội phạm là:", "options": ["A. Tổ chức Nhà nước về điều hành công tác phòng chống tội phạm", "B. Quản lí, điều hành, phối hợp, đảm bảo các điều kiện cần thiết", "C. Có chức năng quản lí Nhà nước trong công tác phòng chống tội phạm", "D. Phối hợp với các tổ chức trong công tác phòng chống tội phạm"], "answer": 1}, {"question": "Câu 99: Công dân với tư cách là chủ thể trong phòng chống tội phạm phải:", "options": ["A. Thực hiện tốt các quyền, nghĩa vụ của công dân đã được quy định trong Hiến pháp", "B. Tích cực, chủ động, đấu tranh với các loại tội phạm", "C. Tham gia nhiệt tình có hiệu quả vào các hoạt động phòng ngừa, ngăn chặn tội phạm", "D. Trực tiếp làm tốt công tác phòng ngừa tội phạm ở địa phương"], "answer": 0}, {"question": "Câu 100: Nguyên tắc tổ chức hoạt động phòng chống tội phạm là:", "options": ["A. Nguyên tắc pháp chế; dân chủ xã hội chủ nghĩa", "B. Nhân đạo trong phòng ngừa, phối hợp chặt chẽ giữa các chủ thể", "C. Khoa học và tiến bộ; cụ thể hóa trong phòng ngừa tội phạm", "D. Tất cả đều đúng."], "answer": 3}, {"question": "Câu 101: Tổ chức tiến hành các hoạt động phòng ngừa tội phạm:", "options": ["A. Tích cực, chủ động trong các hoạt động phòng ngừa tội phạm", "B. Tăng cường hiệu lực công tác quản lý nhà nước về trật tự xã hội", "C. Đổi mới các hoạt động, nâng cao hiệu quả phòng, chống tội phạm", "D. Thường xuyên phát động phong trào phòng chống tội phạm"], "answer": null}, {"question": "Câu 102: Trong phòng chống tội phạm thì phòng ngừa chung là:", "options": ["A. Tổng hợp tất cả các biện pháp về chính trị, kinh tế, văn hoá, pháp luật, giáo dục.", "B. Tổng hợp tất cả các biện pháp về chính trị tư tưởng, kinh tế xã hội và xây dựng nếp sống văn hoá", "C. Tổng hợp tất cả các biện pháp về xây dựng đạo đức, lối sống kết hợp với phát triển kinh tế xã hội", "D. Tổng hợp tất cả các biện pháp kết hợp giữa hành chính và cưỡng bức phạt tù theo luật định."], "answer": 0}, {"question": "Câu 103: Vai trò, trách nhiệm chính của nhà trường trong đấu tranh phòng chống tội phạm?", "options": ["A. Kết hợp với các tổ chức, đoàn thể quần chúng phát hiện phòng chống tội phạm.", "B. Tuyên truyền giáo dục các chương trình quốc gia phòng chống tội phạm", "C. Kết hợp với lực lượng công an địa phương  phát hiện, đấu tranh xử lí tội phạm.", "D. Chủ động nghiên cứu các chủ trương biện pháp để phòng chống tội phạm."], "answer": 1}, {"question": "Câu 104: Vai trò, trách nhiệm chính của nhà trường trong đấu tranh phòng chống tội phạm?", "options": ["A. Phối hợp với các lực lượng, đoàn thể quần chúng phát hiện phòng chống tội phạm.", "B. Tổ chức cho sinh viên tham gia kí kết không tham gia tệ nạn xã hội", "C. Kết hợp với lực lượng công an địa phương  phát hiện, đấu tranh xử lí tội phạm.", "D. Thường xuyên tổ chức sơ, tổng kết rút kinh nghiệm trong đấu tranh phòng chống"], "answer": 1}, {"question": "Câu 105: Trách nhiệm của sinh viên trong đấu tranh phòng chống tội phạm?", "options": ["A. Tích cực học tập năng cao nhận thức về pháp luật", "B. Tích cực tham gia các tổ chức phòng chống tội phạm", "C. Tuyên truyền phổ biến pháp luật cho mọi người.", "D. Chấp hành nghiêm các qui chế do nhà trường đề ra"], "answer": 2}, {"question": "Câu 106: Để phòng ngừa hậu quả của tội phạm ở trường lớp, theo em cần:", "options": ["A. Nhận thức rõ hậu quả, không tham gia vào các tệ nạn xã hội dưới bất cứ hình thức nào", "B.  Nhận thức rõ trách nhiệm, không ngừng học tập và nâng cao tri thức, hiểu biết pháp luật", "C. Cung cấp cho cơ quan chức năng những thông tin có liên quan đến vụ việc - người phạm tội", "D.  trách nhiệm tự bảo vệ mình, ký kết không tham gia các hoạt động tệ nạn xã hội và tội phạm"], "answer": 2}, {"question": "Câu 107: Thông tin là gì?", "options": ["A. Là sự phản ánh thế giới tự nhiên, xã hội và tư duy của con người.", "B. Là sự phản ánh về một đối tượng trong quá trình hoạt động thực tiễn.", "C. Là sự phản ánh của tự nhiên và xã hội bằng ngôn từ, ký hiệu, hình ảnh.", "D. Là sự phản ánh thế giới khách quan của con người trong quá trình hoạt động."], "answer": 2}, {"question": "Câu 108: Thông tin có vai trò gì?", "options": ["A. Là một loại nguồn lực đặc biệt quan trọng.", "B. Giúp con người nhận biết các sự vật, hiện tượng.", "C. Giúp con người trong giao tiếp và hoạt động xã hội.", "D. Tất cả đều đúng."], "answer": null}, {"question": "Câu 109: An toàn thông tin là gì?", "options": ["A. An toàn tuyệt đối bí mật các thông tin về an ninh quốc gia", "B. An toàn kỹ thuật cho các hoạt động của các cơ sở hạ tầng thông tin.", "C. An toàn của các dữ liệu trong quá trình truyền tải qua các phương tiện.", "D. An toàn trong thực hiện đường lối chủ trương chính sách của Đảng, Nhà nước."], "answer": 1}, {"question": "Câu 110: Thực trạng thông tin ở Việt Nam?", "options": ["A. Phá hoại hạ tầng mạng thông tin, ảnh hưởng tới an ninh quốc gia", "B. An toàn an ninh mạng tiếp tục diễn biến phức tạp", "C. Tồn tại nhiều cơ sở gây nguy cơ bị tấn công", "D. Tất cả đều đúng."], "answer": 3}, {"question": "Câu 111: Một trong những nguyên tắc bảo vệ không gian mạng là:", "options": ["A. Tuân thủ Hiến pháp và pháp luật", "B. Thực hiện tốt các qui định của Nhà nước", "C. Nghiêm cấm xuyên tạc chủ trương của Đảng, Nhà nước", "D. Chủ động phát hiện, phòng ngừa các hoạt động vi phạm pháp luật"], "answer": 0}, {"question": "Câu 112: Một trong những nguyên tắc bảo vệ không gian mạng là:", "options": ["A. Thực hiện tốt các qui định của Nhà nước", "B. Nghiêm cấm xuyên tạc chủ trương của Đảng, Nhà nước", "C. Chủ động phát hiện, phòng ngừa các hoạt động vi phạm pháp luật", "D. Phát huy vai trò nòng cốt của lực lượng chuyên trách bảo vệ an ninh mạng"], "answer": 3}, {"question": "Câu 113: Điều 101 Nghị định 15 qui định mức xử phạt hành vi lợi dụng mạng xã hội để cung cấp, chia sẻ thông tin giả mạo...", "options": ["A. Phạt tiền từ 5 đến 10 triệu đồng.", "B. Phạt tiền từ 10 đến 20 triệu đồng.", "C. Phạt tiền từ 20 đến 25 triệu đồng.", "D. Phạt tiền từ 20 đến 30 triệu đồng."], "answer": 1}, {"question": "Câu 114: Mức phạt đối với hành vi gửi hoặc phát tán thư điện tử rác, tin nhắn rác, phần mềm độc hại:", "options": ["A. Phạt tiền 60 triệu đồng", "B. Phạt tiền 70 triệu đồng", "C. Phạt tiền 80 triệu đồng", "D. Phạt tiền 90 triệu đồng"], "answer": 2}, {"question": "Câu 115: Điều 16, thông tin trên không gian mạng có nội dung tuyên truyền chống Nhà nước Cộng hòa xã hội chủ nghĩa Việt Nam bao gồm:", "options": ["A. Tuyên truyền xuyên tạc, phỉ báng chính quyền nhân dân;", "B. Xúc phạm dân tộc, quốc kỳ, quốc huy, quốc ca, vĩ nhân, lãnh tụ, danh nhân, anh hùng dân tộc", "C. Chiến tranh tâm lý, kích động chiến tranh xâm lược, chia rẽ, gây thù hận giữa các dân tộc, tôn giáo và nhân dân các nước;", "D. Tất cả đều đúng."], "answer": 3}, {"question": "Câu 116: Một trong các biện pháp, phòng chống trên không gian mạng là:", "options": ["A. Giáo dục nâng cao cảnh giác về đảm bảo an toàn thông tin, các lợi ích và sự nguy hại đến từ không gian mạng.", "B. Giáo dục nâng cao nhận thức về bảo vệ chủ quyền quốc gia, các lợi ích và sự nguy hại đến từ không gian mạng.", "C. Giáo dục ý thức cho mọi người trong việc bảo mật các thông tin của Đảng, Nhà nước và các tổ chức chính trị-xã hội.", "D. Giáo dục nâng cao cảnh giác cách mạng chống mọi thủ đoạn vi phạm an toàn thông tin và sự nguy hại đến từ không gian mạng."], "answer": 1}, {"question": "Câu 117: Bảo vệ không gian mạng của quốc gia là:", "options": ["A. Bảo vệ các thông tin của Đảng, Nhà nước", "B. Bảo vệ các lợi ích quốc gia và dân tộc", "C. Bảo vệ các hệ thống thông tin", "D. Bảo vệ an toàn thông tin"], "answer": 2}, {"question": "Câu 118: Một trong các biện pháp, phòng chống trên không gian mạng là:", "options": ["A. Tuyên truyền, giáo dục các quy định của Đảng, Nhà nước về quản lý không gian mạng.", "B. Tuyên truyền đường lối, chủ trương của Đảng, Nhà nước  về quản lý không gian mạng.", "C. Tuyên truyền, phổ biến, giáo dục các quy định của pháp luật về quản lý không gian mạng.", "D. Tuyên truyền các quy định của pháp luật cho mọi người về quản lý không gian mạng."], "answer": 2}, {"question": "Câu 119: Một trong các biện pháp, phòng chống trên không gian mạng là:", "options": ["A. Bồi dưỡng kiến thức và  các kỹ năng phòng, chống tấn công mạng và các hành động phát tán trên không gian mạng.", "B. Bồi dưỡng kỹ năng nhận diện các âm mưu, thủ đoạn tấn công mạng và các hình thái phát sinh trên không gian mạng.", "C. Bồi dưỡng kỹ năng, chuyên môn nghiệp vụ về thủ đoạn tấn công mạng và các hình thái phát sinh trên không gian mạng.", "D. Bồi dưỡng kỹ năng cho đội ngũ nhân viên, chuyên trách làm công tác thông tin nhận diện các âm mưu, thủ đoạn tấn công trên không gian mạng."], "answer": 1}, {"question": "Câu 120: Các biện pháp kỹ thuật bảo đảm an toàn thông tin:", "options": ["A. Bảo vệ tài khoản cá nhân", "B. Tạo thói quen quét virus", "C. Sao lưu dự phòng trên ổ cứng ngoài", "D. Tất cả đều bđúng."], "answer": 3}, {"question": "Câu 121: Các cơ quan chuyên trách an ninh mạng", "options": ["A. Cục An ninh mạng và phòng, chống tội phạm sử dụng công nghệ cao, Bộ Công an", "B. Lực lượng bảo vệ an ninh mạng tại bộ, ngành, ủy ban nhân dân tỉnh...", "C. Bộ Tư lệnh Tác chiến không gian mạng, Bộ Quốc phòng", "D. Tất cả đều đúng."], "answer": 3}, {"question": "Câu 122: Một trong các mục tiêu của an ninh quốc gia là:", "options": ["A. Bảo vệ lợi ích quốc gia dân tộc", "B. Củng cố nền tảng vững chắc bên trong", "C. Bảo vệ quyền lợi của quần chúng nhân dân lao động", "D. Bảo vệ trật tự, an toàn xã hội"], "answer": 1}, {"question": "Câu 123 : Một trong các mục tiêu của an ninh quốc gia là:", "options": ["A. Bảo vệ lợi ích quốc gia dân tộc", "B. Bảo vệ quyền lợi của quần chúng nhân dân lao động", "C. Bảo vệ vững chắc chủ quyền và thể chế chính trị quốc gia.", "D. Bảo vệ trật tự, an toàn xã hội"], "answer": 2}, {"question": "Câu 124 : Một trong những nội dung của an ninh quốc gia là gì?", "options": ["A. Bảo vệ lãnh thổ quốc gia", "B. An ninh quân sự, an ninh xã hội", "C. Phòng ngừa sự chống phá từ bên trong", "D. Phòng ngừa sự chống phá từ bên ngoài"], "answer": 1}, {"question": "Câu 125: Trọng tâm bảo đảm an ninh quốc gia là gì?", "options": ["A. Bảo vệ lợi ích và chủ quyền quốc gia", "B. Bảo vệ lãnh thổ quốc gia", "C. Phòng ngừa sự chống phá từ bên trong", "D. Phòng ngừa sự chống phá từ bên ngoài"], "answer": 0}, {"question": "Câu 126: Một trong những thách thức, nguy cơ đối với an ninh quốc gia là:", "options": ["A. Nguy cơ xâm phạm chủ quyền biển, đảo", "B. Nguy cơ đến lợi ích quốc gia dân tộc", "C. Nguy cơ đến quyền lợi của quần chúng nhân dân lao động", "D. Nguy cơ đến bảo vệ trật tự, an toàn xã hội"], "answer": 0}, {"question": "Câu 127: Phương hướng, nhiệm vụ bảo vệ an ninh quốc gia là:", "options": ["A. Xây dựng lực lượng vũ trang tinh nhuệ về chính trị", "B. Đẩy mạnh sự nghiệp công nghiệp hóa, hiện đại hóa đất nước", "C. Phát huy mạnh mẽ sức mạnh tổng hợp của toàn dân tộc", "D. Xây dựng khối đại đoàn kết toàn dân tộc vững mạnh"], "answer": 2}, {"question": "Câu 128: An ninh phi truyền thống xuất hiện vào thời kỳ nào?", "options": ["A. Xuất hiện sau chiến tranh thế giới thứ nhất", "B. Xuất hiện sau chiến tranh thế giới thứ hai", "C. Xuất hiện sau chiến tranh giải phóng ở Việt Nam 1975", "D. Xuất hiện trong vài thập niên gần đây"], "answer": 3}, {"question": "Câu 129: Thế nào là an ninh phi truyền thống?", "options": ["A. Là an ninh có ảnh hưởng đến mọi mặt của một quốc gia dân tộc", "B. Là an ninh gây nên sự khủng hoảng toàn diện của đời sống xã hội", "C. Là an ninh do các thế lực thù địch trong và ngoài nước tạo ra", "D. Là an ninh do những yếu tố phi chính trị, phi quân sự gây ra"], "answer": 3}, {"question": "Câu 130: Một trong những nội dung của an ninh phi truyền thống là:", "options": ["A. Phân hóa giàu nghèo ngày càng ra tăng", "B. Cạn kiệt tài nguyên, ô nhiễm môi trường", "C. Xuất hiện các loại tệ nạn và tội phạm xã hội", "D. Gây ra những cuộc khủng hoảng kinh tế - xã hội"], "answer": 1}, {"question": "Câu 131: Quá trình toàn cầu hóa quốc tế ảnh hưởng đến an ninh phi truyền thống như thế nào?", "options": ["A. An ninh phi truyền thống ngày càng thu hẹp hơn", "B. An ninh phi truyền thống ngày càng kiểm soát tốt hơn", "C. An ninh phi truyền thống ngày càng phức tạp hơn", "D. An ninh phi truyền thống ngày càng đậm nét hơn"], "answer": 3}, {"question": "Câu 132: Giải quyết các nội dung của an ninh phi truyền thống là nhiệm vụ của:", "options": ["A. Các nước công nghiệp phát triển", "B. Là nhiệm vụ mang tính toàn cầu", "C. Của lực lượng gìn giữ hòa bình thế giới", "D. Các nước lạc hậu kinh tế kém phát triển"], "answer": 1}, {"question": "Câu 133: Một trong những thách thức của an ninh phi truyền thống đối với nước ta là:", "options": ["A. Làm cho biến đổi khí hậu", "B. Làm cho khoảng cách giàu, nghèo ra tăng", "C. Làm ảnh hưởng đến sự phát triển kinh tế - xã hội", "D. Là nguyên nhân gây mất ổn định chính trị, xã hội"], "answer": 0}, {"question": "Câu 134: Một trong những thách thức của an ninh phi truyền thống đối với nước ta là:", "options": ["A. Làm cho nền kinh tế kém phát triển", "B. Làm cho mâu thuẫn trong xã hội ra tăng", "C. Là nguyên nhân dẫn đến tội phạm xã hội", "D. Là nguyên nhân gây mất ổn định chính trị, xã hội"], "answer": 0}, {"question": "Câu 135: Một trong những thách thức của an ninh phi truyền thống đối với nước ta là:", "options": ["A. Làm cho tội phạm kinh tế - xã hội gia tăng", "B. Làm suy giảm đến sự phát triển kinh tế - xã hội", "C. Là nguyên nhân dẫn đến mất trật tự an toàn xã hội", "D. Làm mất lòng tin của nhân dân đối với Đảng, Nhà nước"], "answer": 3}, {"question": "Câu 136: Thách thức của an ninh phi truyền thống đối với lĩnh vực quốc phòng an ninh là:", "options": ["A. Đe dọa đến an ninh chính trị đất nước", "B. Đe dọa trực tiếp đến quốc phòng an ninh", "C. Cản trở đến xây dựng nền quốc phòng toàn dân", "D. Cản trở đến quá trình xây dựng Quân đội trong tình hình mới"], "answer": 1}, {"question": "Câu 137: Một trong các giải pháp với các mối đe dọa an ninh phi truyền thống là:", "options": ["A. Nâng cao cảnh giác giữ vững chủ quyền an ninh quốc gia", "B. Nâng cao nhận thức về các mối đe dọa an ninh phi truyền thống", "C. Nâng cao cảnh giác tích cực tham gia các hoạt động phòng chống", "D. Nâng cao tinh thần cảnh giác cách mạng, phát hiện, đấu tranh, ngăn ngừa"], "answer": 1}, {"question": "Câu 138: Một trong các giải pháp với các mối đe dọa an ninh phi truyền thống là:", "options": ["A. Chủ động, tích cực phòng ngừa, ứng phó", "B. Chủ động trong xây dựng kế hoạch phòng chống", "C. Chủ động ứng phó có hiệu quả với các mối đe dọa", "D. Chủ động và tích cực đầu tư cho công tác phòng chống"], "answer": 0}, {"question": "Câu 139 : Trong chủ động phòng ngừa, ứng phó cần:", "options": ["A. Phân loại từng lĩnh vực", "B. Chủ động và tích cực đầu tư", "C. Chủ động xây dựng lực lượng", "D. Tất cả đều đúng."], "answer": 3}, {"question": "Câu 140: Một trong các giải pháp với các mối đe dọa an ninh phi truyền thống là:", "options": ["A. Phát huy vai trò của các tổ chức quần chúng", "B. Phát huy sức mạnh tổng hợp của hệ thống chính trị", "C. Chủ động trong xây dựng kế hoạch phòng ngừa ứng phó", "D. Phát huy vai trò của các tổ chức tự quản trong phòng ngừa"], "answer": 1}, {"question": "Câu 141: Trong giải pháp tăng cường hợp tác quốc tế về phòng ngừa cần:", "options": ["Chủ động, tích cực hợp tác", "B. Xây dựng cơ chế lòng tin", "C. Tăng cường chia sẻ thông tin", "D. Tất cả đều đúng."], "answer": 3}, {"question": "Câu 142: Huy động nguồn lực tài chính bằng:", "options": ["A. Nguồn tài chính ngân sách", "B. Nguồn tài chính doanh nghiệp", "C. Nguồn tài chính xã hội hóa", "D. Tất cả đều đúng"], "answer": 3}];
+const QUESTIONS_DATA = [
+  {
+    "question": "Câu 1: Đối tượng nghiên cứu của môn học Giáo dục quốc phòng – an ninh :",
+    "options": [
+      "A. Đường lối quân sự của Đảng; công tác quốc phòng-an ninh; quân sự chung; kĩ thuật chiến đấu bộ binh và chiến thuật.",
+      "B. Quan điểm đường lối quân sự của Đảng về xây dựng nền quốc phòng toàn dân, chiến tranh nhân dân bảo vệ Tổ quốc",
+      "C. Quan điểm của chủ nghĩa Mác-Lênin, tư tưởng Hồ Chí Minh về công tác quốc phòng, an ninh; kĩ thuật chiến đấu bộ binh và chiến thuật.",
+      "D. Quan điểm của Chủ nghĩa Mác – Lênin, tư tưởng Hồ Chí Minh về chiến tranh, quân đội và bảo vệ Tổ quốc xã hội chủ nghĩa."
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Câu 2: Nghiên cứu những quan điểm cơ bản của Đảng về đường lối quân sự gồm:",
+    "options": [
+      "A. Học thuyết Mác-Lênin, tư tưởng HCM về chiến tranh, quân đội và bảo vệ Tổ Quốc.",
+      "B. Xây dựng nền quốc phòng toàn dân, an ninh nhân dân",
+      "C. Chiến tranh nhân dân bảo vệ Tổ Quốc, xây dựng lực lượng vũ trang nhân dân...",
+      "D. Tất cả đều đúng."
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Câu 3: Giáo dục quốc phòng – an ninh là môn học bao gồm những kiến thức khoa học:",
+    "options": [
+      "A. Xã hội, nhân văn, khoa học cơ bản và kỹ thuật quân sự",
+      "B.  Xã hội nhân văn, khoa học công nghệ và khoa học quân sự",
+      "C. Xã hội, nhân văn, khoa học tự nhiên và khoa học kỹ thuật quân sự.",
+      "D. Xã hội nhân văn và kỹ thuật công nghệ."
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Câu 4: Thực hiện tốt Giáo dục quốc phòng – an ninh cho sinh viên là góp phần:",
+    "options": [
+      "A. Xây dựng tinh thần trách nhiệm, ý thức tham gia bảo vệ Tổ quốc trong mọi tình huống.",
+      "B. Xây dựng tình yêu quê hương đất nước sẵn sàng tham gia lực lượng vũ trang nhân dân.",
+      "C. Đào tạo cán bộ có ý thức tổ chức kỷ luật và tình yêu quê hương đất nước .",
+      "D. Đào tạo đội ngũ cán bộ khoa học kỹ thuật có ý thức, năng lực sẵn sàng tham gia bảo vệ Tổ quốc. 1 BÀI 2 ( 20 câu ) QUAN ĐIỂM CHỦ NGHĨA MÁC – LÊNIN, TƯ TƯỞNG HỒ CHÍ MINH VỀ CHIẾN TRANH QUÂN ĐỘI VÀ BẢO VỆ TỔ QUỐC"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Câu 5: Theo quan điểm của chủ nghĩa Mác-Lênin về chiến tranh:",
+    "options": [
+      "A.  Chiến tranh là một hiện tượng chính trị xã hội có tính lịch sử",
+      "B. Chiến tranh là những cuộc xung đột tự phát ngẫu nhiên",
+      "C. Chiến tranh là một hiện tượng xã hội mang tính vĩnh viễn",
+      "D. Chiến tranh là những xung đột do mâu thuẫn không mang tính xã hội"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Câu 6: Vì sao nói chiến tranh là một hiện tượng chính trị - xã hội có tính lịch sử:",
+    "options": [
+      "A. Vì chiến tranh là một hành vi bạo lực để buộc đối phương phục tùng ý chí của mình.",
+      "B. Vì chiến tranh chỉ gắn với những điều kiện lịch sử, xã hội nhất định.",
+      "C. Vì chiến tranh là sự huy động sức mạnh đến tột cùng của các bên tham chiến.",
+      "D. Vì chiến tranh được thể hiện dưới một công cụ đặc biệt đó là bạo lực vũ trang"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Câu 7: Theo quan điểm của chủ nghĩa Mác-Lênin về nguồn gốc của chiến tranh:",
+    "options": [
+      "A. Chiến tranh bắt nguồn ngay từ khi xuất hiện loài người",
+      "B. Chiến tranh bắt nguồn từ khi xuất hiện chế độ tư hữu, có giai cấp và nhà nước",
+      "C. Chiến tranh bắt nguồn từ sự phát triển tất yếu khách quan của loài người",
+      "D. Chiến tranh bắt nguồn từ khi xuất hiện các hình thức tôn giáo."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Câu 8: Theo quan điểm của chủ nghĩa Mác-Lênin về bản chất của chiến tranh: A  Là sự tiếp tục mục tiêu kinh tế bằng thủ bạo lực",
+    "options": [
+      "B. Là thủ đoạn để đạt được chính trị của một giai cấp",
+      "C. Là sự tiếp tục của chính trị bằng bạo lực",
+      "D. Là thủ đoạn chính trị của một giai cấp"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Câu 9: Theo quan điểm của CN Mác-Lênin về quan hệ giữa chiến tranh với chính trị:",
+    "options": [
+      "A. Chính trị là con đường, là phương tiện của chiến tranh",
+      "B. Chính trị là một thời đoạn, một bộ phận của chiến tranh",
+      "C. Chính trị chi phối và quyết định toàn bộ tiến trình và kết cục của chiến tranh",
+      "D. Chính trị không thể sử dụng kết quả sau chiến tranh để đề ra nhiệm vụ cho giai cấp"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Câu 10: Hồ Chí Minh đã chỉ rõ cuộc chiến tranh của dân ta chống thực dân Pháp xâm lược là nhằm:",
+    "options": [
+      "A. Bảo vệ nhân dân, bảo vệ chế độ, bảo vệ tổ quốc.",
+      "B. Bảo vệ đất nước và chống ách đô hộ của thực dân, đế quốc",
+      "C. Bảo vệ tính mạng, tài sản của nhân dân,của chế độ XHCN",
+      "D. Bảo vệ độc lập, chủ quyền và thống nhất đất nước"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Câu 11: Dựa trên cơ sở nào Hồ Chí Minh đã xác định tính chất xã hội của chiến tranh?",
+    "options": [
+      "A. Giai cấp lãnh đạo tiến hành chiến tranh.",
+      "B. Chế độ xã hội tiến hành chiến tranh.",
+      "C. Mục đích chính trị của chiến tranh.",
+      "D. Bản chất  xã hội của chiến tranh. 2"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Câu 12: Chủ tịch Hồ Chí Minh xác định thái độ của chúng ta đối với chiến tranh là:",
+    "options": [
+      "A. Phản đối tất cả các cuộc chiến tranh",
+      "B. Ủng hộ các cuộc chiến tranh chống áp bức, nô dịch",
+      "C. Phản đối các cuộc chiến tranh phản cách mạng",
+      "D. Ủng hộ chiến tranh chính nghĩa, phản đối chiến tranh phi nghĩa."
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Câu 13: Theo tư tưởng Hồ Chí Minh nhất thiết phải sử dụng bạo lực cách mạng:",
+    "options": [
+      "A. Để lật đổ chế độ cũ, xây dựng chế độ mới XHCN",
+      "B. Để xây dựng chế độ mới âm no, tự do, hạnh phúc.",
+      "C. Để giành lấy chính quyền và bảo vệ chính quyền",
+      "D. Để lật đổ chế độ cũ, xây dựng chính quyền."
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Câu 14: Bạo lực cách mạng theo tư tưởng Hồ Chí Minh được tạo bởi:",
+    "options": [
+      "A. Sức mạnh của toàn dân, bằng cả lực lượng chính trị và lực lượng vũ trang",
+      "B. Sức mạnh của toàn dân, bằng cả lực lượng chính trị và kinh tế",
+      "C. Kết hợp chặt chẽ giữa đấu tranh chính trị với đấu tranh kinh tế",
+      "D.Tất cả đều đúng"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Câu 15: Yếu tố nào có vai trò quyết định đến sức mạnh chiến đấu của quân đội.",
+    "options": [
+      "A. Khoa học công nghệ.",
+      "B. Chính trị tinh thần.",
+      "C. Biên chế, tổ chức.",
+      "D. Trang bị kỹ thuật quân sự."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Câu 16: Một trong những nguyên tắc quan trọng nhất về xây dựng quân đội kiểu mới của Lênin là:",
+    "options": [
+      "A. Sự lãnh đạo của Đảng cộng sản đối với quân đội.",
+      "B. Giữ vững quan điểm giai cấp trong xây dựng quân đội.",
+      "C. Tính kỷ luật cao là yếu tố quyết định sức mạnh quân đội",
+      "D. Quân đội chính quy, hiện đại, trung thành với giai cấp công nhân và nhân dân lao động"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Câu 17: Theo tư tưởng Hồ Chí Minh, Quân đội nhân dân Việt Nam:",
+    "options": [
+      "A. Mang bản chất nông dân",
+      "B. Mang bản chất giai cấp công – nông do Đảng lãnh đạo",
+      "C. Mang bản chất giai cấp công nhân",
+      "D. Mang bản chất nhân dân lao động Việt Nam"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Câu 18: Theo tư tưởng Hồ Chí Minh, quân đội nhân dân Việt Nam có những chức năng:",
+    "options": [
+      "A. Chiến đấu, sẵn sàng chiến đấu",
+      "B. Chiến đấu, lao động sản xuất, tuyên truyền",
+      "C. Chiến đấu, công tác, lao động sản xuất",
+      "D. Chiến đấu và tham gia giữ gìn hòa bình khu vực"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Câu 19: Theo quan điểm CN Mác Lênin để bảo vệ tổ quốc Xã hội chủ nghĩa phải:",
+    "options": [
+      "A. Tăng cường quân thường trực gắn với phát triển kinh tế - xã hội",
+      "B. Tăng cường thế trận gắn với thực hiện chính sách đãi ngộ",
+      "C. Tăng cường tiềm lực quốc phòng gắn với phát triển kinh tế - xã hội 3",
+      "D. Tăng cường tiềm lực an ninh gắn với hợp tác quốc tế"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Câu 20: Vai trò lãnh đạo trong bảo vệ tổ quốc xã hội chủ nghĩa thuộc về:",
+    "options": [
+      "A. Các đoàn thể, các tổ chức chính trị xã hội",
+      "B. Quần chúng nhân dân",
+      "C. Đảng Cộng sản Việt Nam",
+      "D. Hệ thống chính trị"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Câu 21: Theo tư tưởng Hồ Chí Minh bảo vệ Tổ quốc Việt Nam xã hội chủ nghĩa là:",
+    "options": [
+      "A. Qui luật lịch sử",
+      "B. Tất yếu khách quan",
+      "C. Nhiệm vụ chiến lược",
+      "D. Cả a và b"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Câu 22: Theo tư tưởng Hồ Chí Minh mục tiêu bảo vệ Tổ quốc là gì?",
+    "options": [
+      "A. Độc lập dân tộc và thống nhất đất nước",
+      "B. Độc lập dân tộc và xây dựng đất nước",
+      "C. Độc lập dân tộc và Chủ nghĩa xã hội",
+      "D. Độc lập dân tộc và toàn vẹn lãnh thổ"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Câu 23: Chủ tịch Hồ Chí Minh xác định nghĩa vụ, trách nhiệm của công dân về bảo vệ Tổ quốc:",
+    "options": [
+      "A. Là nghĩa vụ số một, là trách nhiệm đầu tiên của mọi công dân",
+      "B. Là sẵn sàng chiến đấu hy sinh vì Tổ quốc",
+      "C. Là nghĩa vụ và trách nhiệm của mọi công dân",
+      "D. Là nghĩa vụ của mọi công dân Việt Nam"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Câu 24: Sức mạnh bảo vệ Tổ quốc theo tư tưởng Hồ Chí Minh là gì?",
+    "options": [
+      "A. Là sức mạnh của cả dân tộc, sức mạnh quốc phòng , an ninh nhân dân.",
+      "B. Là sức mạnh tổng hợp của cả dân tộc, cả nước, kết hợp với sức mạnh thời đại",
+      "C. Là sức mạnh của toàn dân của các cấp, các ngành, các tổ chức đoàn thể.",
+      "D. Là sức mạnh nền quốc phòng toàn dân do nhiều yếu tố, nhân tố tạo thành. BÀI 3 ( 20 câu ) XÂY DỰNG NỀN QUỐC PHÒNG TOÀN DÂN, AN NINH NHÂN DÂN"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Câu 25: Một trong những quan điểm cơ bản xây dựng nền QPTD, ANND là :",
+    "options": [
+      "A. Tự lực tự cường và kết hợp với yếu tố nước ngoài.",
+      "B. Toàn dân, toàn diện, độc lập, tự chủ, tự lực, tự cường.",
+      "C. Dựa vào dân và sức mạnh truyền thống .",
+      "D. Tự lực cánh sinh kết hợp với sức mạnh quốc phòng."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Câu 26: N ền quốc phòng toàn dân, an ninh nhân dân chỉ có mục đích duy nhất là:",
+    "options": [
+      "A. Tự vệ chính đáng",
+      "B. Sẵn sàng chiến đấu",
+      "C. Xây dựng vững mạnh.",
+      "D. Chính quy, hiện đại. 4"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Câu 27: Một trong những đặc trưng của nền quốc phòng toàn dân, an ninh nhân dân là:",
+    "options": [
+      "A. Vì dân, của dân và do toàn thể nhân dân tiến hành",
+      "B. Nền Quốc phòng – An ninh mang tính giai cấp, nhân dân sâu sắc",
+      "C. Nền Quốc phòng – An ninh bảo vệ quyền lợi của dân",
+      "D. Do nhân dân xây dựng, mang tính nhân dân sâu sắc"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Câu 28: Sức mạnh của nền quốc phòng toàn dân, an ninh nhân dân ở nước ta là:",
+    "options": [
+      "A. Sức mạnh do các yếu tố chính trị, kinh tế, văn hóa, khoa học",
+      "B. Sức mạnh tổng hợp do thiên thời địa lợi nhân hòa tạo ra.",
+      "C. Sức mạnh của lực lượng vũ trang nhân dân tạo ra",
+      "D. Sức mạnh tổng hợp do nhiều yếu tố tạo thành"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Câu 29: Một trong những đặc trưng của nền quốc phòng toàn dân, an ninh nhân dân là:",
+    "options": [
+      "A. Nền quốc phòng toàn dân gắn chặt với nền an ninh nhân dân",
+      "B. Nền quốc phòng toàn dân gắn chặt với sư phát triển kinh tế chính trị.",
+      "C. Nền quốc phòng toàn dân gắn chặt với chế độ chính trị-xã hội",
+      "D. Tất cả đều đúng"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Câu 30: Một trong những mục đích xây dựng nền quốc phòng toàn dân, an ninh nhân dân vững mạnh là:",
+    "options": [
+      "A. Tạo thế chủ động cho sự nghiệp xây dựng và bảo vệ Tổ quốc",
+      "B. Tạo ra những cơ sở vật chất nâng cao mức sống cho lực lượng vũ trang",
+      "C. Tạo ra tiềm lực quân sự để phòng thủ đất nước.",
+      "D. Tạo ra môi trường hòa bình để phát triển đất nước theo định hướng XHCN"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Câu 31: Lực lượng của nền quốc phòng toàn dân – an ninh nhân dân bao gồm:",
+    "options": [
+      "A. Lực lượng toàn dân và lực lượng vũ trang nhân dân",
+      "B. Lực lượng quân đội nhân dân và công an nhân dân",
+      "C. Lực lượng toàn dân và dân quân tự vệ",
+      "D. Lực lượng vũ trang nhân dân do Đảng lãnh đạo"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Câu 32: Xây dựng lực lượng quốc phòng - an ninh là:",
+    "options": [
+      "A. Xây dựng lực lượng quân đội nhân dân và công an nhân dân.",
+      "B. Xây dựng lực lượng chính trị và lưc lượng vũ trang nhân dân.",
+      "C. Xây dựng thế trân quốc phòng và thế trận an ninh nhân dân.",
+      "D. Xây dựng lực lượng dự bị động viên vững mạnh bảo vệ Tổ quốc."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Câu 33: Hai nhiệm vụ chiến lược của cách mạng Việt Nam hiện nay là:",
+    "options": [
+      "A. Xây dựng phát triển kinh tế và quốc phòng",
+      "B. Xây dựng đất nước và bảo vệ tổ quốc",
+      "C. Xây dựng CNXH và bảo vệ tổ quốc XHCN",
+      "D. Xây dựng phát triển kinh tế và quốc phòng – an ninh nhân dân"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Câu 34: Một trong các nội dung xây dựng nền quốc phòng toàn dân, an ninh nhân dân là:",
+    "options": [
+      "A. Xây dựng thế trận quốc phòng toàn dân và chiến tranh nhân dân.",
+      "B. Xây dựng tiềm lực quốc phòng, an ninh ngày càng vững mạnh.",
+      "C. Xây dựng thế bố trí lực lượng quốc phòng toàn dân. 5",
+      "D. Xây dựng thế trận quốc phòng hiện đại của các quân binh chủng."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Câu 35: Tiềm lực quốc phòng, an ninh là:",
+    "options": [
+      "A. Khả năng vật chất và tinh thần của lực lượng vũ trang nhân dân để thực hiện nhiệm vụ QPAN.",
+      "B.  Khả năng về nhân lực, vật lực, tài chính có thể huy động để thực hiện nhiệm vụ qp, an.",
+      "C. Khả năng cung cấp cơ sở vật chất và khoa học công nghệ để thực hiện nhiệm vụ qp, an.",
+      "D. Khả năng huy động sức người, sức của để thực hiện nhiệm vụ quốc phòng, an ninh."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Câu 36: Tiềm lực chính trị, tinh thần là gì trong nội dung xây dựng nền QP – AN?",
+    "options": [
+      "A. Là khả năng về chính trị, tinh thần của xã hội để thực hiện nhiệm vụ quốc phòng",
+      "B. Là khả năng về chính trị, tinh thần chiến đấu chống quân xâm lược của nhân dân",
+      "C. Là khả năng về chính trị, tinh thần có thể huy động tạo nên sức mạnh để thực hiện nhiệm vụ quốc phòng, an ninh.",
+      "D. Là khả năng về chính trị, tinh thần tiềm ẩn của nhân dân chưa được huy động để thực hiện nhiệm vụ quốc phòng, an ninh."
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Câu 37: Biểu hiện của tiềm lực chính trị, tinh thần là gì?",
+    "options": [
+      "A. Trình độ giác ngộ chính trị, tư tưởng của nhân dân và lực lượng vũ trang.",
+      "B. Là nhân tố cơ bản tạo nên sức mạnh quốc phòng, an ninh nhân dân",
+      "C. Ý chí, quyết tâm của nhân dân, của các lực lượng vũ trang nhân dân.",
+      "D. Trình độ nhận thức, lòng yêu nước của nhân dân và các lực lượng vũ trang ."
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Câu 38: Tiềm lực kinh tế trong nội dung xây dựng nền quốc phòng toàn dân, an ninh nhân dân là:",
+    "options": [
+      "A. Khả năng về tài chính để phục vụ nhiệm vụ quốc phòng, an ninh",
+      "B. Khả năng về khoa học kỹ thuật để phục vụ nhiệm vụ quốc phòng an ninh",
+      "C. Khả năng về kinh tế của đất nước có thể khai thác, huy động nhằm phục vụ cho QP-AN",
+      "D. Tất cả đều đúng"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Câu 39: Nội dung xây dựng tiềm lực kinh tế cuả nền QPTD:",
+    "options": [
+      "A. Xây dựng nền  công nghiệp, nông nghiệp theo hướng hiện đại .",
+      "B. Đẩy mạnh CNH, HĐH đất nước, xây dựng nền kinh tế độc lập tự chủ.",
+      "C. Xây dựng nền công nghiệp, lấy công nghiệp nặng làm then chốt",
+      "D. Xây dựng nền công nghiệp quốc phòng an ninh vững mạnh."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Câu 40: Một trong những nội dung xây dựng tiềm lực quân sự, an ninh là:",
+    "options": [
+      "A. Xây dựng lực lượng Quân đội Công an vững mạnh .",
+      "B. Xây dựng thế trận chiến tranh nhân dân vững chắc",
+      "C. Xây dựng lực lượng dân quân tự vệ đảm bảo số lượng.",
+      "D. Xây dựng lực lượng vũ trang nhân dân vững mạnh toàn diện"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Câu 41: Một trong những nội dung xây dựng thế trận quốc phòng toàn dân - an ninh nhân dân là:",
+    "options": [
+      "A. Phân vùng chiến lược về quốc phòng, an ninh kết hợp với vùng kinh tế",
+      "B. Phân vùng chiến lược về quốc phòng – an ninh kết hợp với quy hoạch dân cư",
+      "C. Phân vùng chiến lược về quốc phòng – an ninh kết hợp xây dựng các phương án phòng thủ",
+      "D. Phân vùng chiến lược về quốc phòng – an ninh kết hợp với bảo toàn lực lượng 6"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Câu 42: Một trong những nội dung xây dựng thế trận quốc phòng, an ninh nhân dân là gì?",
+    "options": [
+      "A. tổ chức phòng thủ dân sự, kết hợp cải tạo địa hình với xây dựng hạ tầng và các công trình quốc phòng, an ninh.",
+      "B. Tổ chức phòng thủ dân sự kết hợp xây dựng các công trình dân dụng bảo đảm an toàn cho người và trang thiết bị.",
+      "C. Tổ chức phòng thủ dân sự, xây dựng các công trình ẩn nấp chủ động tiến công tiêu diệt địch.",
+      "D. Tổ chức phòng thủ dân sự bảo đảm an toàn cho người và của cải vật chất."
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Câu 43: Biện pháp xây dựng nền quốc phòng toàn dân, an ninh nhân dân:",
+    "options": [
+      "A. Thường xuyên thực hiện giáo dục quốc phòng -  an ninh.",
+      "B. Thường xuyên củng cố quốc phòng và hiện đại hoá lực lượng vũ trang.",
+      "C. Thường xuyên chăm lo xây dựng lực lượng vũ trng nhân dân vững mạnh .",
+      "D. Thường xuyên chăm lo xây dựng Công an nhân dân vững mạnh."
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Câu 44: Nội dung giáo dục quốc phòng, an ninh phải toàn diện nhưng phải coi trọng?",
+    "options": [
+      "A. Giáo dục nghị quyết, quan điểm chính sách của Đảng, Nhà nước.",
+      "B. Giáo dục tình hình nhiệm vụ của cách mạng giai đoạn hiện nay.",
+      "C. Giáo dục tình yêu quê hương, đất nước, chế độ xã hội chủ nghĩa.",
+      "D. Gíao dục tình hình nhiệm vụ quân sự - an ninh nhân dân. BÀI 4 ( 20 câu ) CHIẾN TRANH NHÂN DÂN BẢO VỆ TỔ QUỐC VIỆT NAM XÃ HỘI CHỦ NGHĨA"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Câu 45: Một trong những mục đích của chiến tranh nhân dân Việt Nam là:",
+    "options": [
+      "A. Bảo vệ vững chắc độc lập, chủ quyền, thống nhất toàn vẹn lãnh thổ",
+      "B. Giữ vững ổn định chính trị và môi trường hòa bình.",
+      "C. Bảo vệ Đảng, nhà nước, nhân dân và chế độ xã hội chủ nghĩa",
+      "D. Tất cả đều đúng"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Câu 46: Đối tượng của chiến tranh nhân dân bảo vệ tổ quốc Việt Nam XHCN là:",
+    "options": [
+      "A. Chủ nghĩa đế quốc và chủ nghĩa ly khai",
+      "B. Chủ nghĩa đế quốc và các thế lực phản động",
+      "C. Các thế lực phản cách mạng trong và ngoài nước",
+      "D. Chủ nghĩa khủng bố quốc tế"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Câu 47: Một trong những âm mưu, thủ đoạn chủ yếu của kẻ thù khi xâm lược nước ta là:",
+    "options": [
+      "A. Đánh nhanh, thắng nhanh",
+      "B. Đánh chắc, tiến chắc",
+      "C. Đánh lâu dài",
+      "D. Tiến công từng bước"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Câu 48: Một trong những âm mưu, thủ đoạn chủ yếu của kẻ thù khi xâm lược nước ta là:",
+    "options": [
+      "A. Tiến công hỏa lực với mức độ cao, kết hợp tiến công quân sự từ bên ngoài",
+      "B. Tiến công quân sự với quân số đông, kết hợp bạo loạn lật đổ từ bên trong",
+      "C. Gây bạo loạn lật đổ với quy mô lớn, kết hợp tiến công quân sự từ bên ngoài",
+      "D. Kết hợp tiến công quân sự từ bên ngoài vào với bạo loạn lật đổ từ bên trong 7"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Câu 49: Điểm yếu cơ bản của kẻ thù khi tiến hành chiến tranh xâm lược:",
+    "options": [
+      "A. Không biết được đặc điểm, địa hình của ta",
+      "B. Đây là cuộc chiến tranh phi nghĩa",
+      "C. Phát huy được hiệu quả của số ít vũ khí trang bị",
+      "D. Tất cả các câu đều đúng."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Câu 50: Tính chất của chiến tranh nhân dân bảo vệ Tổ quốc là gì?",
+    "options": [
+      "A. Là cuộc chiến tranh tự vệ, chính nghĩa.",
+      "B. Là cuộc chiến tranh bảo vệ độc lập dân tộc.",
+      "C. Là cuộc chiến tranh chính  nghĩa, tự vệ cách mạng.",
+      "D. Là cuộc chiến tranh bảo vệ chế độ chủ nghĩa xã hội."
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Câu 51: Tính hiện đại trong chiến tranh nhân dân bảo vệ tổ quốc ở Việt Nam được thể hiện ở chỗ:",
+    "options": [
+      "A. Sử dụng vũ khí trang bị hiện đại để tiến hành chiến tranh",
+      "B. Sử dụng vũ khí trang bị hiện đại để đánh bại kẻ thù có vũ khí hiện đại hơn",
+      "C. Là cuộc chiến tranh hiện đại, bằng vũ khí công nghệ cao.",
+      "D. Kết hợp sử dụng vũ khí tương đối hiện đại với hiện đại để tiến hành chiến tranh"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Câu 52: Tiến hành chiến tranh nhân dân với tinh thần tự lực tự cường nhưng :",
+    "options": [
+      "A. Cần sự đồng tình ủng hộ, giúp đỡ của cả loài người tiến bộ trên thế giới,",
+      "B. Cân phát huy nội lực của đất nước không cần giúp đỡ từ bên ngoài",
+      "C. Chỉ cần một số nước Xã hội Chủ nghĩa giúp đỡ",
+      "D. Chỉ cần huy động mọi tiềm năng sẳn có của đất nước."
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Câu 53: Đặc điểm của chiến tranh nhân dân bảo vệ Tổ quốc là gì?",
+    "options": [
+      "A. Diễn ra khẩn trương, quyết liệt phức tạp ngay từ đầu",
+      "B. Diễn ra với tính chất phức tạp kéo dài trong suốt quá trình.",
+      "C. Diễn ra trong bối cảnh quốc tế có nhiều thuận lợi cho chúng ta",
+      "D. Diễn ra trong điều kiện đất nước còn gặp nhiều khó khăn"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Câu 54: Quan điểm chủ đạo xuyên suốt trong quá trình tiến hành chiến tranh nhân dân là:",
+    "options": [
+      "A. Kết hợp vừa kháng chiến vừa kiến quốc.",
+      "B. Kết hợp chặt chẽ giữa đấu tranh quân sự với chính trị, ngoại giao.",
+      "C. Toàn dân đánh giặc lấy lực lượng vũ trang làm nòng cốt.",
+      "D. Chuẩn bị mọi mặt trong cả nước để đánh lâu dài."
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Câu 55: Trong 4 mặt trận sau, mặt trận nào có ý nghĩa quyết định trong chiến tranh:",
+    "options": [
+      "A. Mặt trận kinh tế",
+      "B. Mặt trận quân sự",
+      "C. Mặt trận ngoại giao",
+      "D. Mặt trận chính trị"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Câu 56: Một trong những quan điểm của Đảng ta về chuẩn bị cho chiến tranh nhân dân bảo vệ Tổ quốc:",
+    "options": [
+      "A. Chuẩn bị mọi mặt ở các bộ, các ngành, các quân binh chủng để đánh lâu dài",
+      "B. Chuẩn bị đầy đủ tiềm lực kinh tế, quân sự để đánh lâu dài",
+      "C. Chuẩn bị mọi mặt trên cả nước, cũng như từng khu vực để đủ sức đánh lâu dài 8",
+      "D. Chuẩn bị trên tất cả khu vực phòng thủ để đủ sức đánh lâu dài"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Câu 57: Phải kết hợp kháng chiến với xây dựng, vừa chiến đấu vừa sản xuất vì một trong những lý do sau:",
+    "options": [
+      "A. Cuộc chiến tranh rất ác liệt, kẻ thù sử dụng vũ khí công nghệ hiện đại.",
+      "B. Cuộc chiến diễn ra quyết liệt, thương vong, tiêu hao sẽ rất lớn.",
+      "C. Cuộc chiến tranh sẽ mở rộng, không phân biệt tiền tuyến, hậu phương.",
+      "D. Cuộc chiến tranh kẻ thù sử dụng một lượng bom đạn rất lớn để tàn phá."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Câu 58: Trong chiến tranh nhân dân bảo vệ tổ quốc phải kết hợp chặt chẽ giữa:",
+    "options": [
+      "A. Kết hợp chống quân xâm lược từ bên ngoài với chống bọn khủng bố, bạo loạn bên trong",
+      "B. Kết hợp đấu tranh quân sự với bảo đảm an ninh chính trị, giữ gìn trật tự an toàn xã hội",
+      "C. Kết hợp chống bạo loạn với trấn áp bọn phản động",
+      "D. Kết hợp chống bạo loạn lật đổ với các hoạt động phá hoại khác."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Câu 59: Một trong những nội dung chủ yếu của chiến tranh nhân dân bảo vệ Tổ quốc là gì?",
+    "options": [
+      "A. Tổ chức các lực lượng đánh giặc",
+      "B. Tổ chức thế trận đánh giặc",
+      "C. Tổ chức thế trận chiến tranh nhân dân",
+      "D. Tổ chức thế trận phòng thủ của chiến tranh."
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Câu 60: Trong chiến tranh nhân dân bảo vệ Tổ quốc, thế trận của chiến tranh được:",
+    "options": [
+      "A. Bố trí rộng trên cả nước, tập trung ở khu vực chủ yếu",
+      "B. Bố trí rộng trên cả nước, nhưng phải có trọng tâm trọng điểm",
+      "C. Bố trí rộng trên cả nước, tập trung ở các vùng kinh tế trọng điểm",
+      "D. Bố trí rộng trên cả nước, tập trung ở các địa bàn trọng điểm"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Câu 61: Lực lượng trong chiến tranh nhân dân bảo vệ Tổ quốc gồm:",
+    "options": [
+      "A. Lực lượng vũ trang ba thứ quân",
+      "B. Lực lượng vũ trang nhân dân gồm ba thứ quân làm nòng cốt.",
+      "C. Lực lượng vũ trang ba thứ quân kết hợp các lực lượng vũ trang khác",
+      "D. Là sự phối hợp giữa các lực lượng"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Câu 62: Lực lượng vũ trang nhân dân 3 thứ quân của Việt Nam gồm:",
+    "options": [
+      "A. Quân đội, công an, dân quân tự vệ",
+      "B. Bộ đội thường trực, lực lượng dự bị, dân quân tự vệ",
+      "C. Bộ đội chủ lực, bộ đội địa phương, dân quân tự vệ",
+      "D. Bộ đội chủ lực, bộ đội địa phương, bộ đội biên phòng"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Câu 63: Theo quan điểm của Đảng ta, yếu tố quyết định thắng lợi trên chiến trường là:",
+    "options": [
+      "A. Vũ khí trang bị kỹ thuật hiện đại",
+      "B. Vũ khí hiện đại, nghệ thuật tác chiến cao",
+      "C. Con người và vũ khí, con người là quyết định",
+      "D. Vũ khí hiện đại và người chỉ huy giỏi"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Câu 64: Kết hợp sức mạnh dân tộc với sức mạnh thời đại nhằm:",
+    "options": [
+      "A. Tranh thủ sự giúp đỡ của nhân dân thế giới",
+      "B. Tạo nên sức mạnh tổng hợp bao gồm cả nội lực và ngoại lực 9",
+      "C. Nêu cao tinh thần đoàn kết quốc tế",
+      "D. Tranh thủ sự ủng hộ mọi mặt của các nước XHCN BÀI 5 ( 20 câu ) XÂY DỰNG LƯC LƯỢNG VŨ TRANG NHÂN DÂN VIỆT NAM"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Câu 65: Lực lượng vũ trang nhân dân Việt Nam là:",
+    "options": [
+      "A. Các tổ chức quốc phòng, an ninh",
+      "B. Các tổ chức quân sự, an ninh trật tự",
+      "C. Các tổ chức vũ trang, tổ chức quần chúng",
+      "D. Các tổ chức vũ trang và bán vũ trang của nhân dân Việt Nam"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Câu 66: Cơ quan nào quản lý lực lượng vũ trang nhân dân?",
+    "options": [
+      "A. Quân đội, Công an nhân dân.",
+      "B. Nhà nước CHXHCNVN",
+      "C. Đảng cộng sản Việt Nam",
+      "D. Chính quyền địa phương các cấp"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Câu 67: Lực lượng vũ trang nhân dân trong bảo vệ Tổ quốc có vị trí như thế nào ?",
+    "options": [
+      "A. Là lực lượng xung kích trong các hoạt động quân sự",
+      "B. Là lực lượng nòng cốt của quốc phòng toàn dân và chiến tranh nhân dân",
+      "C. Là lực lượng chủ yếu của sự nghiệp bảo vệ tổ quốc",
+      "D. Là lực lượng quyết định của sự nghiệp bảo vệ tổ quốc"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Câu 68: Đặc điểm nào sau đây ảnh hưởng lớn nhất đến quá trình xây dựng lực lượng vũ trang?",
+    "options": [
+      "A. Cả nước đang thực hiện hai nhiệm vụ chiến lược, trong khi kẻ thù chống phá ta quyết liệt.",
+      "B. Tình hình thế giới thay đổi, có nhiều diễn biến phức tạp, tiềm ẩn nhiều yếu tố mất ổn định.",
+      "C. Lực lượng vũ trang nhân dân ta đã có bước trưởng thành lớn mạnh cả về bản lĩnh chính trị.",
+      "D. Sự nghiệp công nghiệp hóa, hiện đại hóa đất nước đã, đang đạt được nhiều thành tựu to lớn."
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Câu 69: Xây dựng lực lượng vũ trang ND hiện nay có thuận lợi cơ bản:",
+    "options": [
+      "A. Đảng ta có bản lĩnh chính trị vững vàng",
+      "B. Quân đội , công an ngày càng phát triển lớn mạnh hiện đại",
+      "C. Nhà nước quan tâm đầu tư rất mạnh cho quốc phòng và an ninh",
+      "D. Kinh tế, xã hội, quốc phòng an ninh ngày càng phát triển vững mạnh"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Câu 70: Trong đầu tư cho quốc phòng an ninh, xây dựng LLVTND hiện nay còn một mâu thuẫn chủ yếu giữa:",
+    "options": [
+      "A. Nhu cầu về trang bị vũ khí hiện đại với khả năng kỹ thuật công nghệ còn hạn chế",
+      "B. Nhu cầu về tăng cường chất lượng huấn luyện với khả năng cơ sở vật chất kỹ thuật còn có hạn",
+      "C. Nhu cầu phải đầu tư cho quốc phòng an ninh...nhưng khả năng của nền kinh tế rất hạn hẹp",
+      "D. Nhu cầu nâng cao chất lượng đội ngũ cán bộ với khả năng đào tạo huấn luyện"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Câu 71: Quan điểm, nguyên tắc nào là cơ bản nhất trong xây dựng lực lượng vũ trang nhân dân ?",
+    "options": [
+      "A. Tự lực tự cường xây dựng lực lượng vũ trang",
+      "B. Xây dựng LLVT lấy chất lượng là chính, lấy xây dựng chính trị làm cơ sở",
+      "C. Giữ vững và tăng cường sự lãnh đạo của Đảng đối với llvt nhân dân.",
+      "D. Bảo đảm cho lực lượng vũ trang luôn trong tư thế sẵn sàng chiến đấu. 10"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Câu 72: Vấn đề quan trọng nhất trong xây dựng lực lượng vũ trang nhân dân là gì?",
+    "options": [
+      "A. Phát triển số lượng chất lượng Đảng viên trong lực lượng vũ trang",
+      "B. Xây dựng đội ngũ cán bộ làm công tác chính trị trong lực lượng vũ trang",
+      "C. Giáo dục chủ nghĩa Mác-Lênin, tư tưởng Hồ Chí Minh",
+      "D. Giữ vững nguyên tắc Đảng Cộng sản lãnh đạo lực lượng vũ trang"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Câu 73: Tại sao phải giữ vững và tăng cường sự lãnh đạo của Đảng đối với lực lượng vũ trang?",
+    "options": [
+      "A. Bảo đảm cho LLVT luôn trong tư thế sẵn sàng chiến đấu thắng lợi trong mọi tình huống.",
+      "B. Bảo đảm cho LLVT luôn có tinh thần cảnh giác cách mạng trước thủ đoạn của kẻ thù.",
+      "C. Bảo đảm cho LLVT giữ vững bản chất cách mạng, mục tiêu, phương hướng chiến đấu",
+      "D. Bảo đảm cho LLVT được huấn luyện và rèn luyện tốt mọi lúc mọi nơi sẵn sàng chiến đấu."
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Câu 74: Đảng lãnh đạo lực lượng vũ trang nhân dân theo nguyên tắc:",
+    "options": [
+      "A. Tuyệt đối, trực tiếp và toàn diện",
+      "B. Tuyệt đối, trực tiếp về mọi mặt",
+      "C. Tuyệt đối, toàn diện, lãnh đạo chính trị là quyết định",
+      "D. Tuyệt đối, toàn diện trên mọi lĩnh vực"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Câu 75: Một trong những quan điểm của Đảng về xây dựng lực lượng vũ trang nhân dân là:",
+    "options": [
+      "A. Phát huy nội lực kết hợp với sức mạnh thời đại",
+      "B. Độc lập, tự chủ để phát triển lực lượng vũ trang nhân dân",
+      "C. Tự lực, tự cường xây dựng lực lượng vũ trang nhân dân",
+      "D. Phát huy truyền thống dân tộc để xây dựng lực lượng vũ trang nhân dân"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Câu 76: Xây dựng lực lượng vũ trang nhân dân phải tự lực tự cường vì sao?",
+    "options": [
+      "A. Để tạo nên sức mạnh của lực lượng vũ trang nhân dân",
+      "B. Để giữ vững tính độc lập tự chủ, không bị chi phối ràng buộc",
+      "C. Để nhằm khai thác sức mạnh quân sự vốn có của ta.",
+      "D. Tất cả đều đúng."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Câu 77: Một trong những quan điểm trong xây dựng lực lượng vũ trang nhân dân là:",
+    "options": [
+      "A. Xây dựng LLVTND lấy chất lượng là trọng tâm, lấy chính trị làm chú yếu",
+      "B. Xây dựng LLVTND lấy chất lượng là chính, lấy xây dựng chính trị làm cơ sở",
+      "C. Xây dựng LLVTND toàn diện cả về số lượng và chất lượng",
+      "D. Xây dựng LLVTND toàn diện, tập trung hiện đại quân đội"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Câu 78: Vì sao xây dựng lực lượng vũ trang nhân dân phải luôn trong tư thế sẵn sàng chiến đấu?",
+    "options": [
+      "A. Ngày nay kẻ địch đang chống phá cách mạng nước ta trên mọi lĩnh vực",
+      "B. Đó là nhiệm vụ chủ yếu, thường xuyên của lực lượng vũ trang nhân dân Việt Nam.",
+      "C. Đó là chức năng, nhiệm vụ cơ bản, thường xuyên của lực lượng vũ trang nhân dân",
+      "D. Đó là yêu cầu của sự nghiệp cách mạng bảo vệ Tổ quốc hiện nay đối với lực lượng vũ trang."
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Câu 79: Một trong những phương hướng xây dựng lực lượng vũ trang nhân dân là:",
+    "options": [
+      "A. Xây dựng lực lượng vũ trang 3 thứ quân theo hướng vững mạnh, đáp ứng tình hình mới.",
+      "B. Xây dựng quân đội, công an nhân dân theo hướng chính qui, thống nhất, hiện đại",
+      "C. Xây dựng quân đội, công an theo hướng cách mạng, chính qui, tinh nhuệ, từng bước hiện đại.",
+      "D. Xây dựng quân đội nhân dân theo hướng chính qui, hiện đại sẵn sàng chiến đấu cao. 11"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Câu 80: Chính quy trong quân đội thể hiện ở chỗ:",
+    "options": [
+      "A. Là sự thống nhất về huấn luyện tác chiến",
+      "B. Là thực hiện thống nhất về mọi mặt",
+      "C. Là sự thống nhất về tổ chức biên chế",
+      "D. Là sự thống nhất về nghệ thuật tác chiến"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Câu 81: Xây dựng quân đội, công an phải tinh nhuệ trên các lĩnh vực?",
+    "options": [
+      "A. Chính trị, tư tưởng, huấn luyện",
+      "B. Chính trị, quân sự, hậu cần",
+      "C. Chính trị, an ninh, kĩ thuật",
+      "D. Chính trị, tổ chức, kĩ chiến thuật"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Câu 82: Phương hướng xây dựng lực lượng dự bị động viên phải:",
+    "options": [
+      "A. Có số lượng đông, chất lượng cao, sẳn sàng động viên khi cần thiết",
+      "B. Hùng hậu, huấn luyện và quản lý tốt, đảm bảo khi cần động viên nhanh theo kế hoạch",
+      "C. Luôn trong tư thế sẵn sàng chiến đấu",
+      "D. Phối hợp chặt chẽ với lực lượng thường trực và dân quân tự vệ"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Câu 83: Một trong những biện pháp chủ yếu trong xây dựng lực lượng vũ trang nhân dân là:",
+    "options": [
+      "A. Nâng cao huấn luyện, giáo dục, đẩy mạnh đối ngoại quốc phòng an ninh",
+      "B. Nâng cao giáo dục chính trị, tư tưởng, phát triển khoa học công nghệ.",
+      "C. Nâng cao huấn luyện, giáo dục, phối hợp hoạt động giữa các lực lượng vũ trang",
+      "D. Nâng cao chất lượng huấn luyện, giáo dục, xây dựng và phát triển khoa học quân sự."
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Câu 84: Một trong những biện pháp chủ yếu trong xây dựng lực lượng vũ trang nhân dân là:",
+    "options": [
+      "A. Từng bước giải quyết yêu cầu về vũ khí cho lực lượng vũ trang nhân dân",
+      "B. Từng bước trang bị vũ khí, phương tiện hiện đại cho lực lượng vũ trang nhân dân",
+      "C. Từng bước giải quyết yêu cầu về vũ khí, trang bị kỹ thuật cho LLVTND",
+      "D. Từng bước đổi mới bổ sung đầy đủ vũ khí hiện đại cho lực lượng vũ trang nhân dân BÀI 6 ( 20 câu ) KẾT HỢP PHÁT TRIỂN KINH TẾ - XÃ HỘI VỚI TĂNG CƯỜNG CỦNG CỐ QUỐC PHÒNG – AN NINH"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Câu 85: Quốc phòng là gì?",
+    "options": [
+      "A. Là công việc của lực lượng vũ trang nhân dân để bảo vệ Tổ quốc Việt Nam xã hội chủ nghĩa.",
+      "B. Là công việc giữ nước của một quốc gia gồm tổng thể các hoạt động đối nội và đối ngoại.",
+      "C. Là công việc của địa phương nhằm để huy động mọi tiềm lực đất nước bảo vệ tổ quốc",
+      "D. Tất cả đều đúng."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Câu 86: Một trong những cơ sở lý luận của sự kết hợp kinh tế và quốc phòng - an ninh là:",
+    "options": [
+      "A. Quốc phòng an ninh tạo ra cơ sở vật chất xây dựng kinh tế",
+      "B. Quốc phòng an ninh tạo ra những biến động kích thích kinh tế",
+      "C. Quốc phòng an ninh và kinh tế có quan hệ, tác động qua lại lẫn nhau",
+      "D. Quốc phòng an ninh tạo ra quá trình sự phát triển kinh tế, xã hội."
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Câu 87: Một trong những cơ sở lý luận của sự kết hợp kinh tế với quốc phòng - an ninh là:",
+    "options": [
+      "A. Kinh tế quyết định việc cung ứng vật chất cho quốc phòng – an ninh 12",
+      "B. Kinh tế quyết định việc cung cấp trang thiết bị cho quốc phòng – an ninh",
+      "C. Kinh tế quyết định đến nguồn gốc ra đời, sức mạnh của quốc phòng - an ninh",
+      "D. Kinh tế quyết định việc cung cấp kỹ thuật, công nghệ cho quốc phòng - an ninh."
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Câu 88: Khẳng định: “Thắng lợi hay thất bại của chiến tranh đều phụ thuộc vào kinh tế” là của?",
+    "options": [
+      "A. Hồ Chí Minh.",
+      "B. Ph. Ăngghen",
+      "C. V.I.Lênin",
+      "D. C.Mác"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Câu 89: “Dựng nước đi đôi với giữ nước” có ý nghĩa gì đối với nước ta ?",
+    "options": [
+      "A. Là quy luật tồn tại và phát triển của dân tộc ta.",
+      "B. Là sự phản ánh quá trình phát triển của dân tộc ta.",
+      "C. Là quy luật để phát triển và bảo vệ đất nước.",
+      "D. Là quy luật để xây dựng và phát triển đất nước."
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Câu 90: “Động vi binh tĩnh vi dân” nghĩa là:",
+    "options": [
+      "A. Khi đất nước hoà bình làm người lính sẵn sàng chiến đấu và tham gia xây dựng kinh tế.",
+      "B. Khi đất nước hòa bình tham gia xây dựng kinh tế, khi có chiến tranh cầm súng chiến đấu",
+      "C. Khi đất nước có chiến tranh hoặc bình yên đều phải làm người dân xây dựng, phát triển kinh tế",
+      "D. Khi đất nước có chiến tranh làm người lính, đất nước bình yên làm người dân phát triển xây dựng kinh tế."
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Câu 91: Kết hợp kinh tế với quốc phòng an ninh trong kháng chiến chống Pháp xâm lược Đảng ta đề ra chủ trương là:",
+    "options": [
+      "A. Vừa tiến hành chiến tranh, vừa củng cố tiềm lực kinh tế",
+      "B. Vừa kháng chiến, vừa kiến quốc",
+      "C. Vừa tăng gia sản xuất, vừa củng cố quốc phòng.",
+      "D. Vừa xây dựng làng kháng chiến, vừa tăng gia lao động sản xuất"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Câu 92: Một trong những nội dung kết hợp phát triển kinh tế - xã hội với tăng cường củng cố quốc phòng - an ninh là:",
+    "options": [
+      "A. Kết hợp trong chiến lược phát triển công nghiệp hóa hiện đại hóa.",
+      "B. Kết hợp trong chiến lược phát triển nguồn nhân lực để hiện đại hóa đất nước",
+      "C. Kết hợp trong xác định chiến lược phát triển kinh tế - xã hội",
+      "D. Kết hợp trong xác định chiến lược về văn hóa tư tưởng"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Câu 93: Kết hợp kinh tế với QPAN ninh trong phát triển các vùng lãnh thổ cần phải quan tâm vấn đề gì?",
+    "options": [
+      "A. Kết hợp chặt chẽ giữa phát triển kinh tế - xã hội với xây dựng lực lượng, thế trận QPAN",
+      "B. Kết hợp giữa phát triển kinh tế với xây dựng lực lượng vũ trang, lực lượng quần chúng",
+      "C. Kết hợp chặt chẽ giữa phát triển công nghiệp quốc phòng với xây dựng các thế trận phòng thủ",
+      "D. Kết hợp chặt chẽ giữa phát triển kinh tế với xây dựng các tổ chức chính trị, đoàn thể xã hội 13"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Câu 94: Hiện nay nước ta có mấy vùng kinh tế trọng điểm?",
+    "options": [
+      "A. 3 vùng",
+      "B. 4 vùng",
+      "C. 5 vùng",
+      "D. 6 vùng"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Câu 95: Tại sao trong quy hoạch, kế hoach xây dựng các thành phố, các khu công nghiệp cần lựa chọn quy mô trung bình, phân tán, trải dài trên diện rộng ?",
+    "options": [
+      "A. Do trình độ khoa học kỹ thuật công nghệ ở nước ta còn hạn chế.",
+      "B. Để hạn chế hậu quả tiến công hỏa lực của địch khi có chiến tranh.",
+      "C. Do nước ta còn nghèo chưa đủ trình độ xây dựng các khu công nghiệp lớn.",
+      "D. Để tận dụng tốt nguồn nhân lực tại chổ cho xây dựng thành phố,khu công nghiệp."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Câu 96: Một trong những nội dung kết hợp kinh tế với quốc phòng - an ninh ở vùng biển, đảo cần tập trung là:",
+    "options": [
+      "A. Có cơ chế chính sách thoả đáng để động viên khích lệ dân ra đảo bám trụ làm ăn lâu dài",
+      "B. Có cơ chế chính sách thoả đáng để động viên dân đầu tư tàu thuyền đánh bắt xa bờ.",
+      "C. Có cơ chế chính sách thoả đáng để động viên ngư dân thành lập các tổ chức tự vệ trên biển",
+      "D. Có cơ chế chính sách thoả đáng để ngư dân xây dựng các trận địa phòng thủ"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Câu 97: Một trong những nội dung kết hợp KT với QP trong giai  đoạn hiện nay là :",
+    "options": [
+      "A. Kết hợp kinh tế với quốc phòng trong các ngành, các lĩnh vực kinh tế chủ yếu.",
+      "B. Kết hợp kinh tế với quốc phòng trong phân chia các khu vực kinh tế - địa lý.",
+      "C. Kết hợp kinh tế với quốc phòng giữa các vùng dân cư và vùng kinh tế mới.",
+      "D. Kết hợp kinh tế với quốc phòng trong phân chia các khu vực kinh tế,"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Câu 98: Một trong các nội dung kết hợp kinh tế với quốc phòng - an ninh trong công nghiệp là:",
+    "options": [
+      "A. Phải kết hợp ngay từ khi thực hiện xây dựng các khu công nghiệp",
+      "B. Phải kết hợp ngay từ khâu quy hoạch, bố trí các đơn vị kinh tế của ngành công nghiệp",
+      "C. Phải kết hợp ngay chiến lược đào tạo nhân lực của ngành công nghiệp.",
+      "D. Phải kết hợp ngay trong ý đồ bố trí mạng lưới công nghiệp quốc phòng"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Câu 99: Về kết hợp kinh tế với quốc phòng - an ninh trong lâm nghiệp cần tập trung?",
+    "options": [
+      "A. Đẩy mạnh phát triển trồng rừng gắn với công tác định canh định cư xây dựng các cơ sở chính trị",
+      "B. Đẩy mạnh khai thác, trồng rừng gắn với công tác định canh định cư xây dựng các tổ chức xã hội",
+      "C. Đẩy mạnh khai thác lâm sản, phát triển hệ thống giao thông, xây dựng các đoàn thể.",
+      "D. Đẩy mạnh xóa đói giảm nghèo gắn với công tác luân chuyển dân cư, xây dựng cơ sở chính trị"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Câu 100: Kết hợp phát triển KT- XH với tăng cường, củng cố QP- AN trong giao thông vận tải cần phải làm gì?",
+    "options": [
+      "A. Xây dựng các công trình giao thông hoành tráng cho thời bình",
+      "B. Xây dựng các con đường giao thông nông thôn cho thời chiến",
+      "C. Xây dựng kế hoạch động viên giao thông vận tải cho thời chiến",
+      "D. Xây dưng kế hoach động viên giao thông từng giai đoạn 14"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Câu 101: Kết hợp phát triển kinh tế - xã hội với tăng cường củng cố quốc phòng – an ninh thì lĩnh vực nào đóng vai trò là động lực, là nền tảng cho sự phát triển?",
+    "options": [
+      "A. Công nghiệp và bưu chính viễn thông",
+      "B. Khoa học, công nghệ và giáo dục",
+      "C. Giao thông vận tải",
+      "D. Tất cả đều đúng."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Câu 102: Một trong những giải pháp để thực hiện kết hợp kinh tế với quốc phòng - an ninh là phải tăng cường:",
+    "options": [
+      "A. Sự lãnh đạo của nhà nước, quản lý của Đảng trong thực hiện nhiệm vụ",
+      "B. Sự giám sát của quần chúng nhân dân và điều hành của cơ quan chuyên môn",
+      "C. Sự lãnh đạo của Đảng, hiệu lực quản lý nhà nước của chính quyền các cấp",
+      "D. Sự điều hành quản lý của Nhà nước, giám sát  của nhân dân"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Câu 103: Đối tượng bồi dưỡng kiến thức kết hợp phát triển kinh tế - xã hội với quốc phòng - an ninh cần tập trung:",
+    "options": [
+      "A. Cán bộ cấp tỉnh, Bộ, ngành từ trung ương đến địa phương",
+      "B. Cán bộ các cấp từ xã phường trở lên",
+      "C. Cán bộ chủ trì các cấp bộ, ngành, đoàn thể từ trung ương đến cơ sở",
+      "D. Học sinh trung học phổ thông, sinh viên cao đẳng, đại học"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Câu 104: Thực chất của việc kết hợp phát triển kinh tế với quốc phòng – an ninh là gì?",
+    "options": [
+      "A. Thực hiện xây dựng nền quốc phòng toàn dân.",
+      "B. Thực hiện mục tiêu dân giàu, nước mạnh.",
+      "C. Thực hiện tốt hai nhiệm vụ chiến lược.",
+      "D. Phát triển kinh tế, quốc phòng vững mạnh. BÀI 7 ( 20 câu ) NGHỆ THUẬT QUÂN SỰ VIỆT NAM"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Câu 105: Trong lịch sử, vì sao nước ta luôn bị nhiều kẻ thù nhòm ngó, đe dọa, tiến công xâm lược?",
+    "options": [
+      "A. Việt Nam có vị trí địa lý thuận lợi",
+      "B. Việt Nam có nhiều tài nguyên khoáng sản",
+      "C. Việt Nam có rừng vàng biển bạc",
+      "D. Việt Nam có thị trường to lớn"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Câu 106: Lý Thường Kiệt sử dụng biện pháp “Tiên phát chế nhân” nghĩa là:",
+    "options": [
+      "A. Chuẩn bị chu đáo, chặn đánh địch từ khi mới xâm lược",
+      "B. Chuẩn bị thế trận phòng thủ, chống địch làm địch bị động",
+      "C. Chuẩn bị đầy đủ vũ khí trang bị để giành thế chủ động đánh địch",
+      "D. Chủ động tiến công trước để đẩy kẻ thù vào thế bị động 15"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Câu 107: Một trong những lý do làm cho cuộc kháng chiến chống quân Minh của nhà Hồ thất bại là vì:",
+    "options": [
+      "A. Nhà Hồ tích cực chủ động tiến công quá mức",
+      "B. Nhà Hồ đã tích cực tiến công nhưng quân Minh quá mạnh",
+      "C. Nhà Hồ quá thiên về phòng thủ, coi đó là phương thức cơ bản",
+      "D. Nhà Hồ đã quá thiên về phòng thủ, không chủ động phản công."
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Câu 108: Tư tưởng chỉ đạo tác chiến trong nghệ thuật đánh giặc của ông cha ta là gì?",
+    "options": [
+      "A. Tiến công liên tục mọi lúc, mọi nơi",
+      "B. Tích cực phòng ngự chờ thời cơ tiến công",
+      "C. Phòng ngự chắc chắn kết hợp tiến công",
+      "D. Phòng ngự tạo thời cơ thuận lợi để phản công."
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Câu 109: Tư tưởng tích cực chủ động tiến công được xem là sợi chỉ đỏ:",
+    "options": [
+      "A. Xuyên suốt trong quá trình tiến hành và khắc phục hậu quả chiến tranh",
+      "B. Xuyên suốt trong quá trình chuẩn bị và tiến hành chiến tranh giữ nước",
+      "C. Xuyên suốt trong quá trình huấn luyện và đề ra các kế sách chiến tranh",
+      "D. Xuyên suốt trong quá trình đánh giá nghiên cứu về kẻ thù"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Câu 110: Một trong những nội dung nghệ thuật đánh giặc của ông cha ta là gì?",
+    "options": [
+      "A. Lấy nhỏ địch lớn, lấy ít địch nhiều, lấy yếu địch mạnh",
+      "B. Lấy nhỏ đánh lớn, lấy ít đánh nhiều, lấy yếu đánh mạnh",
+      "C. Lấy nhỏ đánh lớn, lấy ít địch nhiều, lấy yếu chống mạnh",
+      "D. Lấy nhỏ thắng lớn, lấy ít thắng nhiều, lấy yếu thắng mạnh"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Câu 111: Một trong những nội dung nghệ thuật đánh giặc của ông cha ta là:",
+    "options": [
+      "A. Kết hợp đấu tranh giữa các mặt trận quân sự, chính trị, ngoại giao và binh vận",
+      "B. Kết hợp đấu tranh giữa các mặt trận quân sự, chính trị, ngoại giao, dân vận",
+      "C. Kết hợp đấu tranh giữa các mặt trận chính trị, quân sự, ngoại thương, dân vận",
+      "D. Kết hợp đấu tranh giữa các mặt trận quân sự, kinh tế, thương mại, binh vận"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Câu 112: Trong nghệ thuật kết hợp đấu tranh giữa các mặt trận thì chính trị được xác định:",
+    "options": [
+      "A. Là mặt trận quan trọng nhất, chủ yếu nhất",
+      "B. Là mặt trận quyết định thắng lợi trực tiếp .",
+      "C. Là cơ sở để tạo ra sức mạnh quân sự.",
+      "D. Là mặt trận chủ yếu để phân hóa, cô lập kẻ thù"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Câu 113: Một trong những cơ sở hình thành nghệ thuật quân sự Việt Nam là gì?",
+    "options": [
+      "A. Từ truyền thống đánh giặc của tổ tiên",
+      "B. Từ nghệ thuật quân sự của các nước",
+      "C. Từ luận điểm về đấu tranh giai cấp của chủ nghĩa Mác-Lênin",
+      "D. Tất cả đều đúng."
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Câu 114: Một trong những nội dung chiến lược quân sự của Đảng ta là:",
+    "options": [
+      "A. Xác định đúng kẻ thù, đúng đối tượng tác chiến",
+      "B. Xác định đúng kẻ thù, đúng đối tác.",
+      "C. Xác định đúng đối tượng, đúng đối tác 16",
+      "D. Xác định đúng lực lượng và đối tác của ta."
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Câu 115: Sau cách mạng tháng 8 năm 1945 đối tượng tác chiến của quân và dân ta là:",
+    "options": [
+      "A. Quân đội Anh, quân đội Tưởng",
+      "B. Quân đội Nhật, quân đội Pháp",
+      "C. Quân đội Nhật,  quân đội Tưởng",
+      "D. Quân đội Pháp xâm lược."
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Câu 116: Khi Mỹ xâm lược Việt Nam, Đảng ta nhận định:",
+    "options": [
+      "A. Mĩ rất giàu và rất mạnh",
+      "B. Mĩ giàu nhưng không mạnh",
+      "C. Mĩ không giàu nhưng rất mạnh",
+      "D. Mĩ tuy giàu nhưng rất yếu"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Câu 117: Đảng ta chỉ đạo phương châm tiến hành chiến tranh là gì?",
+    "options": [
+      "A. Tự lực cánh sinh tranh thủ sự giúp đỡ của các nước khác.",
+      "B. Tự lực cánh sinh, đánh lâu dài, dựa vào sức mình là chính",
+      "C. Tự lực cánh sinh, đánh nhanh, thắng nhanh, dựa vào sức mình là chính",
+      "D. Tự lực cánh sinh, đánh lâu dài, dựa vào sức mạnh thời đại là chính."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Câu 118: Một số loại hình chiến dịch cơ bản trong nghệ thuật quân sự Việt Nam:",
+    "options": [
+      "A. Chiến dịch tiến công, phản công, vận động, phục kích, tập kích",
+      "B. Chiến dịch tiến công, phản công, phòng ngự, phòng không, tiến công tổng hợp",
+      "C. Chiến dịch tiến công, phòng ngự, phục kích, tập kích",
+      "D. Chiến dịch tiến công, phục kích, phòng không, tiến công tổng hợp"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Câu 119: Chiến dịch nào sau đây là chiến dịch phản công:",
+    "options": [
+      "A. Chiến dịch Điện Biên Phủ năm 1954",
+      "B. Chiến dịch Việt Bắc năm 1947",
+      "C. Chiến dịch Quảng Trị năm 1972",
+      "D. Chiến dịch Hồ Chí Minh năm 1975"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Câu 120: Trong chiến dịch Điện Biên Phủ chúng ta đã thay đổi phương châm tác chiến đó là:",
+    "options": [
+      "A. Từ đánh lâu dài sang đánh nhanh, thắng nhanh",
+      "B. Từ đánh nhanh, thắng nhanh sang đánh lâu dài",
+      "C. Từ đánh lâu dài sang đánh chắc, tiến chắc",
+      "D. Từ đánh nhanh, thắng nhanh sang đánh chắc, tiến chắc"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Câu 121: Chiến thuật thường vận dụng trong giai đoạn đầu kháng chiến chống Pháp và Mỹ là gì?",
+    "options": [
+      "A. Phản công, phòng ngự, tập kích",
+      "B. Tập kích, phục kích, vận động tiến công",
+      "C. Phục kích, đánh úp",
+      "D. Phòng ngự, phục kích, phản kích"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Câu 122: Nội dung quan trọng nhất của lý luận chiến thuật là gì?",
+    "options": [
+      "A. Phương thức tác chiến",
+      "B. Phương châm tác chiến",
+      "C. Quy mô lực lượng tham gia chiến đấu. 17",
+      "D. Cách đánh"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Câu 123: Một trong những bài học kinh nghiệm về nghệ thuật quân sự Việt Nam được vận dụng hiện nay là:",
+    "options": [
+      "A. Tích cực phòng thủ trong thế tiến công",
+      "B. Tích cực tiến công và phòng ngự",
+      "C. Tích cực phòng ngự và chủ động phản công",
+      "D. Tích cực tiến công"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Câu 124: Một trong những bài học kinh nghiệm về nghệ thuật quân sự cần quán triệt là:",
+    "options": [
+      "A. Nghệ thuật tạo sức mạnh tổng hợp bằng giáo dục truyền thống",
+      "B. Nghệ thuật tạo sức mạnh tổng hợp bằng xây dựng phát triển kinh tế",
+      "C. Nghệ thuật tạo sức mạnh tổng hợp bằng lực, thế, thời và mưu kế",
+      "D. Nghệ thuật tạo sức mạnh tổng hợp bằng thiên thời, địa lợi, nhân hoà BÀI 8 ( 20 câu ) XÂY DỰNG VÀ BẢO VỆ CHỦ QUYỀN LÃNH THỔ, BIÊN GIỚI QUỐC GIA"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Câu 125: L ãnh thổ quốc gia là ?",
+    "options": [
+      "A. Phạm vi không gian được giới hạn bởi biên giới quốc gia.",
+      "B. Phạm vi không gian bao gồm vùng đất và vùng nước, vùng biển.",
+      "C. Phạm vi không gian giới hạn bởi biên giới quốc gia thuộc chủ quyền hoàn toàn và đầy đủ.",
+      "D. Một phần của trái đất bao gồm vùng đất và vùng trời của quốc gia."
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Câu 126: Việt Nam có đường biên giới dài bao nhiêu km?2",
+    "options": [
+      "A. 4550 km",
+      "B. 4500 km",
+      "C. 5450 km",
+      "D. 4450 km"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Câu 127: Lãnh thổ quốc gia được cấu thành bởi các bộ phận sau:3",
+    "options": [
+      "A. Vùng đất, vùng biển, vùng trời thuộc lãnh thổ quốc gia.",
+      "B. Vùng đất, vùng biển, nội địa và vùng nội thuỷ.",
+      "C. Vùng đất, vùng biển, vùng trời và lãnh thổ quốc gia đặc biệt.",
+      "D. Vùng đất, vùng lãnh hải và vùng trời. Câu 128 Vùng nội thuỷ của lãnh thổ quốc gia:4",
+      "A. Là vùng nước được giới hạn bởi một bên là bờ biển và một bên khác là lãnh hải.",
+      "B. Là vùng biển nằm ở phía trong của đường cơ sở.",
+      "C. Là vùng nước nằm ở bên ngoài đường cơ sở.",
+      "D. Là vùng nước được giới hạn bởi đường cơ sở và đường biên giới trên biển."
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Câu 129: Vùng nước lãnh hải của lãnh thổ quốc gia:",
+    "options": [
+      "A. Là vùng biển nằm bên ngoài và tiếp liền với vùng tiếp giáp lãnh hải.",
+      "B. Là vùng biển có chiều rộng 12 hải lý tính từ đường cơ sở.",
+      "C. Là vùng biển có chiều rộng 12 hải lý tính từ đường cơ sở vào trong.",
+      "D. Là vùng biển nằm bên ngoài vùng nội thuỷ có chiều rộng 24 hải lý. 18"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Câu 130: Tàu thuyền của các quốc gia khác có được đi lại trong vùng lãnh hải của VN không?",
+    "options": [
+      "A. Không được phép đi lại",
+      "B. Được phép đi lại tự do",
+      "C. Được phép đi lại khi chính phủ Việt Nam cho phép",
+      "D. Được phép đi lại không gây hại Câu131: Thế nào là chủ quyền quốc gia?",
+      "A. Là quyền tối cao của một quốc gia trong phạm vi lãnh thổ của mình.",
+      "B. Là quyền làm chủ một cách độc lập, toàn vẹn và đầy đủ về mọi mặt lập pháp, hành pháp và tư pháp.",
+      "C. Là quyền thiêng liêng mọi vấn đề chính trị, kinh tế, văn hoá - xã hội do quốc gia quyết định.",
+      "D. Là quyền tự quyết định mọi vấn đề đối nội, đối ngoại của quốc gia."
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Câu 132: Đặc trưng cơ bản, quan trọng nhất của một quốc gia là gì?",
+    "options": [
+      "A. Quyền lực công cộng nhà nước",
+      "B. Chủ quyền lãnh thổ quốc gia",
+      "C. Chủ quyền quốc gia",
+      "D. Hoà bình, độc lập, tự chủ"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Câu 133: Một trong những nội dung xây dựng và bảo vệ chủ quyền lãnh thổ quốc gia :",
+    "options": [
+      "A. Xây dựng và phát triển nền quốc phòng toàn dân, an ninh nhân dân.",
+      "B. Xây dựng và phát triển nền kinh tế kết hợp với quốc phòng - an ninh.",
+      "C. Xác lập và bảo vệ quyền lập pháp, hành pháp, tư pháp trên mọi mặt.",
+      "D. Kết hợp chặt chẽ giữa đấu tranh quân sự với bảo đảm an ninh chính trị."
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Câu 134: Biên giới quốc gia của Việt Nam được xác định bằng yếu tố nào?",
+    "options": [
+      "A. Hệ thống các mốc quốc giới trên đất liền, các mốc quốc giới trên biển.",
+      "B. Hệ thống các mốc quốc giới trên thực địa, các tọa độ trên hải đồ.",
+      "C. Hệ thống các đường biên giới, các toạ độ trên hải đồ.",
+      "D. Hệ thống các mốc quốc giới  trên đất liền bằng các tọa độ."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Câu 135: Biên giới quốc gia được cấu thành bởi bộ phận nào sau đây ?",
+    "options": [
+      "A. Biên giới quốc gia trên đất liền, biên giới quốc gia trên biển và trên không.",
+      "B. Biên giới quốc gia trong lòng đất và biên giới quốc gia trên biển.",
+      "C. Biên giới quốc gia trên không, biên giới quốc gia trên biển và trong lòng đất",
+      "D. Biên giới quốc gia trên đất liền, trên biển, trên không và trong lòng đất."
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Câu 136: Tác dụng của đường biên giới quốc gia trên biển?",
+    "options": [
+      "A. Phân định lãnh thổ trên biển cho tất cả các quốc gia có biển.",
+      "B. Là ranh giới phía ngoài của vùng đặc quyền kinh tế trên biển giữa các quốc gia.",
+      "C. Là ranh giới phía ngoài của thềm lục địa, lãnh thổ trên biển giữa các quốc gia",
+      "D. Phân định lãnh thổ trên biển giữa các quốc gia có bờ biển liền kề hay đối diện nhau"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Câu 137: Quần đảo Hoàng Sa thuộc tỉnh, thành phố và biển nào của Việt Nam?",
+    "options": [
+      "A. Thành phố Đà Nẵng, Biển Đông",
+      "B. Thành phố Vũng Tàu, Biển Đông",
+      "C. Tỉnh Quảng Ninh, Vịnh Bắc Bộ",
+      "D. Tỉnh Khánh Hoà, Biển Đông 19"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Câu 138: Quần đảo Trường Sa thuộc tỉnh, thành phố nào của Việt Nam?",
+    "options": [
+      "A. Tỉnh Kiên Giang",
+      "B. Tỉnh Khánh Hoà",
+      "C. Tỉnh Bà Rịa – Vũng Tàu",
+      "D. Tỉnh Bình Thuận"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Câu 139: Một trong những nội dung xây dựng và bảo vệ biên giới quốc gia là:",
+    "options": [
+      "A. Tăng cường mở rộng quan hệ đối ngoại với các nước láng giềng và trên thế giới.",
+      "B. Tăng cường hợp tác với các nước trên thế giới vì hoà bình, ổn định và phát triển lâu dài.",
+      "C. Tăng cường hợp tác phát triển kinh tế, văn hoá, xây dựng lực lượng vũ trang bảo vệ Tổ quốc.",
+      "D. Tăng cường hợp tác nhiều mặt nhằm xây dựng biên giới hoà bình, hữu nghị, ổn định lâu dài."
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Câu 140: Một trong những nội dung xây dựng và bảo vệ biên giới quốc gia:",
+    "options": [
+      "A. Phối hợp với các nước trong khu vực ngăn chặn mọi âm mưu gây bạo loạn lật đổ của kẻ thù.",
+      "B. Phối hợp với các nước đấu tranh ngăn chặn mọi hành động phá hoại tình đoàn kết hữu nghị.",
+      "C. Phối hợp chặt chẽ giữa chống giặc ngoài và dẹp thù trong để bảo vệ vững chắc Tổ quốc.",
+      "D. Phối hợp đấu tranh quân sự với bảo đảm an ninh chính trị - trật tự an toàn xã hội."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Câu 141: Một trong những quan điểm của Đảng về xây dựng, bảo vệ chủ quyền lãnh thổ, biên giới quốc gia:",
+    "options": [
+      "A. Chủ quyền lãnh thổ, biên giới quốc gia là một bộ phận rất quan trọng của Nhà nước Việt Nam.",
+      "B. Chủ quyền lãnh thổ, biên giới quốc gia là yếu tố cơ bản nhất cho sự phát triển kinh tế - xã hội.",
+      "C. Chủ quyền lãnh thổ, biên giới quốc gia là thiêng liêng bất khả xâm phạm của dân tộc VN.",
+      "D. Chủ quyền lãnh thổ, biên giới quốc gia là quan trọng trong sự nghiệp xây dựng và bảo vệ Tổ quốc."
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Câu 142: Quan điểm của Đảng, Nhà nước ta trong việc giải quyết các vấn đề tranh chấp lãnh thổ, biên giới:",
+    "options": [
+      "A. Vừa hợp tác vừa đấu tranh trong phạm vi lãnh thổ quốc gia của mình",
+      "B. Thông qua đàm phán hoà bình, tôn trọng độc lập, chủ quyền toàn vẹn lãnh thổ của nhau",
+      "C. Bằng con đường ngoại giao trên tinh thần bình đẳng đôi bên cùng có lợi.",
+      "D. Kết hợp nhiều biện pháp kể cả biện pháp đe doạ sử dụng vũ lực để giải quyết tranh chấp."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Câu 143: Quan điểm xây dựng biên giới hoà bình hữu nghị, ổn định của Đảng và Nhà nước ta thể hiện:",
+    "options": [
+      "A. Là vấn đề quan trọng, cơ bản và lâu dài trong sự nghiệp cách mạng của Đảng ta.",
+      "B. Là quan điểm nhất quán trong sự nghiệp công nghiệp hoá, hiện đại hoá đất nước.",
+      "C. Là quan điểm nhất quán phù hợp với lợi ích, luật pháp của Việt Nam và công ước quốc tế.",
+      "D. Là xây dựng biên giới hoà bình, hữu nghị, phù hợp với đường lối đối ngoại của nước ta."
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Câu 144: Để xây dựng và bảo vệ chủ quyền lãnh thổ, biên giới quốc gia. Mọi công dân Việt Nam phải:",
+    "options": [
+      "A. Có nghĩa vụ tham gia xây dựng và bảo vệ chủ quyền lãnh thổ, biên giới quốc gia.",
+      "B. Có nghĩa vụ, trách nhiệm tham gia xây dựng và bảo vệ chủ quyền lãnh thổ, biên giới quốc gia.",
+      "C. Có trách nhiệm tham gia xây dựng và bảo vệ chủ quyền lãnh thổ, biên giới quốc gia.",
+      "D. Tất cả đều đúng. 20 BÀI 9 ( 20 câu ) XÂY DỰNG LƯC LƯỢNG DÂN QUÂN TỰ VỆ, LỰC LƯỢNG DỰ BỊ ĐỘNG VIÊN VÀ ĐỘNG VIÊN CÔNG NGHIỆP QUỐC PHÒNG"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Câu 145: Dân quân tự vệ đặt dưới sự lãnh đạo tuyệt đối trực tiếp về mọi mặt của Đảng vì:",
+    "options": [
+      "A. Dân quân tự vệ là một bộ phận của lực lượng vũ trang nhân dân.",
+      "B. Dân quân tự vệ là lực lượng vũ trang quần chúng nhân dân.",
+      "C. Dân quân tự vệ là lưc lượng nòng cốt chiến đấu bảo vê địa phương .",
+      "D. Dân quân tự vệ là lực lượng chiến lược bảo vệ Tổ quốc."
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Câu 146: Dân quân tự vệ có vai trò gì?",
+    "options": [
+      "A. Là một trong những công cụ chủ yếu để bảo vệ địa phương cơ sở.",
+      "B. Trong thời bình DQTV là lực lượng đông đảo tham gia xây dựng kinh tế",
+      "C. Trong thời chiến DQTV làm nòng cốt cho toàn dân đánh giặc.",
+      "D. Tất cả đều đúng"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Câu 147: Dân quân tự vệ được xác định là lực lượng như thế nào trong nền quốc phòng toàn dân:",
+    "options": [
+      "A. Dân quân tự vệ là lực lượng cơ bản trong xây dựng nền quốc phòng toàn dân",
+      "B. Dân quân tự vệ là lực lượng nòng cốt trong xây dựng nền quốc phòng toàn dân",
+      "C. Dân quân tự vệ là lực lượng xung kích trong xây dựng nền quốc phòng toàn dân",
+      "D. Dân quân tự vệ là lực lượng xung kích trong xây dựng quốc phòng toàn dân, an ninh nhân dân."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Câu 148: Luật dân quân tự vệ 2019 xác định dân quân tự vệ có mấy nhiệm vụ?",
+    "options": [
+      "A. có 5 nhiệm vụ",
+      "B. có 6 nhiệm vụ",
+      "C. có 7 nhiệm vụ",
+      "D. có 8 nhiệm vụ"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Câu 149: Xây dựng lực lượng dân quân tự vệ cần chú ý phương châm:",
+    "options": [
+      "A. Vững mạnh, rộng khắp, coi trọng chất lượng chính trị.",
+      "B. Vững mạnh, rộng khắp, coi trọng chất lượng là chính.",
+      "C. Xây dựng toàn diện sẳn sàng chiến đấu cao.",
+      "D. Xây dựng toàn diện, coi trọng chất lượng chính trị là chính."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Câu 150: Phương châm vững mạnh trong xây dựng lực lượng dân quân tự vệ là?",
+    "options": [
+      "A. Vững mạnh toàn diện về chính trị, tư tưởng, tổ chức",
+      "B. Mỗi tổ chức dân quân tự vệ phải luôn vững mạnh.",
+      "C. Xây dựng toàn diện sẳn sàng chiến đấu trong mọi tình huống.",
+      "D. Xây dựng toàn diện, coi trọng chất lượng chính trị tư tưởng."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Câu 151: Một trong những nội dung của phương châm xây dựng lực lượng dân quân tự vệ là:",
+    "options": [
+      "A. Xây dựng lực lượng Dân quân tự vệ coi trọng chất lượng chính trị",
+      "B. Xây dựng lực lượng Dân quân tự vệ toàn diện",
+      "C. Xây dựng lực lượng Dân quân tự vệ toàn diện có sức chiến đấu cao",
+      "D. Xây dựng lực lượng Dân quân tự vệ coi trọng chất lượng là chính. 21"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Câu 152: Dân quân tự vệ được tổ chức thành 2 lực lượng là:",
+    "options": [
+      "A. Lực lượng cơ động và lực lượng rộng rãi.",
+      "B. Lực lượng nòng cốt và lực lượng rộng rãi.",
+      "C. Lực lượng quân sự và lực lượng an ninh nhân dân.",
+      "D. Lực lượng cơ động tại chỗ đánh địch và lực lượng dự bị."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Câu 153: Độ tuổi của công dân Việt Nam tham gia lực lượng dân quân tự vệ là :",
+    "options": [
+      "A. Đủ 18 tuổi đến 42 tuổi cho nam công dân; đủ 18 tuổi đến 35 tuổi cho nữ công dân.",
+      "B. Đủ 18 tuổi đến 42 tuổi cho nam công dân; đủ 18 tuổi đến hết 30 cho nữ công dân.",
+      "C. Đủ 20 tuổi đến 45 tuổi cho nam công dân; đủ 20 tuổi đến hết 35 tuổi cho nữ công dân.",
+      "D. Đủ 18 tuổi đến hết 45 tuổi cho nam công dân; đủ 18 tuổi đến hết 40 tuổi cho nữ công dân."
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Câu 154: Nội dung giáo dục chính trị đối với dân quân tự vệ là gì?",
+    "options": [
+      "A. Giáo dục truyền thống dân tộc, tinh thần yêu nước, âm mưu thủ đoạn của kẻ thù.",
+      "B. Giáo dục âm mưu thủ đoạn của các thế lực thù địch chống phá nước ta.",
+      "C. Giáo dục cho mọi người nâng cao tinh thần cảnh giác .",
+      "D. Giáo dục âm mưu và ý chí đánh giặc giữ nước cho người dân."
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Câu 155: Huấn luyện quân sự đối với dân quân tự vệ bao gồm những đối tượng nào ?",
+    "options": [
+      "A. Toàn thể cán bộ, công nhân viên các ngành, các cấp.",
+      "B. Toàn thể cán bộ dân quân tự vệ.",
+      "C. Toàn thể cán bộ, chiến sĩ dân quân tự vệ.",
+      "D. Toàn thể cán bộ, Đảng viên, dân quân tự vệ."
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Câu 156: Dân quân tự vệ được bảo đảm hậu cần như thế nào?",
+    "options": [
+      "A. Tự cung tự cấp về mọi mặt.",
+      "B.  Được bảo đảm hậu cần tại chỗ",
+      "C. Được địa phương bảo đảm về công tác chiến đấu.",
+      "D. Được địa phương bảo đảm về mọi mặt công tác."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Câu 157: Một trong những quan điểm, nguyên tắc xây dựng lực lượng dự bị động viên là:",
+    "options": [
+      "A. Bảo đảm số lượng đủ, chất lượng cao toàn diện, rộng khắp, sẵn sàng chiến đấu cao.",
+      "B. Bảo đảm toàn diện nhưng có trọng điểm chủ yếu xây dựng chất lượng.",
+      "C. Bảo đảm số lượng đủ, chất lượng cao, xây dựng toàn diện nhưng có trọng tâm, trọng điểm.",
+      "D. Bảo đảm số lượng đông, chất lượng cao cho những đơn vị sẵn sàng chiến đấu."
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Câu 158: Một trong những quan điểm, nguyên tắc xây dựng lực lượng dự bị động viên là phải:",
+    "options": [
+      "A. Phát huy sức mạnh của toàn dân tất cả các lĩnh vực hoạt động xã hội.",
+      "B. Xây dựng lực lượng dự bị động viên hùng mạnh, trình độ kỹ chiến thuật tốt, sẵn sàng chiến đấu cao.",
+      "C. Phát huy sức mạnh của bộ, ngành và địa phương.",
+      "D. Phát huy sức mạnh tổng hợp của cả hệ thống chính trị."
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Câu 159: Xây dựng lực lượng dự bị động viên phải đặt dưới sự lãnh đạo của Đảng như thế nào?",
+    "options": [
+      "A. Trực tiếp, tuyệt đối về mọi mặt.",
+      "B. Trực tiếp, toàn diện về mọi mặt.",
+      "C. Tuyệt đối, toàn diện về mọi mặt.",
+      "D. Toàn diện, tuyệt đối về mọi mặt. 22"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Câu 160: Một trong những nội dung xây dựng LLDBĐV là:",
+    "options": [
+      "A. Tạo nguồn, đăng ký, quản lý lực lượng dự bị động viên.",
+      "B. Tạo nguồn, đăng ký, biên chế lực lượng dự bị động viên.",
+      "C. Tạo nguồn, đăng ký, tổ chức lực lượng dự bị động viên theo kế hoạch.",
+      "D. Tạo nguồn, đăng ký, kiểm tra lực lượng dự bị động viên theo pháp lệnh qui định."
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Câu 161: Tổ chức, biên chế đơn vị dự bị động viên phải theo nguyên tắc:",
+    "options": [
+      "A. Theo mức độ sức khoẻ, theo tuổi đời và theo cư trú.",
+      "B. Theo trình độ chuyên môn, theo hạng, theo cư trú.",
+      "C. Theo quân hàm, theo chức vụ và theo sức khoẻ.",
+      "D. Theo hạng, theo trình độ văn hoá và theo tuổi đời. Câu 162 Phương châm huấn luyện đối với lực lượng dự bị động viên :",
+      "A. Chất lượng, thiết thực, hiệu quả tập trung vào khoa học quân sự hiện đại.",
+      "B. Cơ bản, thống nhất coi trọng khâu kỹ thuật tác chiến, phối hợp giữa các lực lượng.",
+      "C. Chất lượng, thiết thực, hiệu quả, sát thực tế chiến đấu tại địa bàn.",
+      "D. Chất lượng, thiết thực, hiệu quả, tập trung có trọng tâm, trọng điểm."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Câu 163: Thực hiện huấn luyện, diễn tập, kiểm tra đối với lực lượng dự bị động viên nhằm :",
+    "options": [
+      "A. Giúp nâng cao chất lượng đáp ứng yêu cầu sẵn sàng chiến đấu và chiến đấu.",
+      "B. Giúp nâng cao chất lượng đáp ứng yêu cầu động viên tham gia mở rộng quân đội.",
+      "C. Giúp nâng cao chất lượng đáp ứng yêu cầu động viên và tổng động viên khi có lệnh.",
+      "D. Giúp lãnh đạo, chỉ huy nắm được thực trạng tổ chức, xây dựng LLDBĐV ."
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Câu 264: Thẩm quyền quyết định và thông báo quyết định động viên công nghiệp quốc phòng do cấp nào quy định ?",
+    "options": [
+      "A. Bộ Quốc phòng.",
+      "B. Chủ tịch nước.",
+      "C. Chủ tịch Quốc hội.",
+      "D. Chính phủ. BÀI 10 ( 20 câu ) XÂY DỰNG PHONG TRÀO TOÀN DÂN BẢO VỆ AN NINH TỔ QUỐC"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Câu 165: Quan điểm của CN Mác - Lênin về vai trò của quần chúng nhân dân ?",
+    "options": [
+      "A. Là người có vai trò to lớn .",
+      "B. Là người làm nên lịch sử .",
+      "C. Là một bộ phận quan trọng .",
+      "D. Là lực lượng nòng cốt của phong trào."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Câu 166: Câu nói “ Trong bầu trời không có gì quý bằng nhân dân “ là của ai ?",
+    "options": [
+      "A. Nguyễn Trải",
+      "B. Chủ tịch Hồ Chí Minh.",
+      "C. Lênin.",
+      "D. Khổng Tử. 23"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Câu 167: Hình thức hoạt động của phong trào toàn dân BV an ninh TQ như thế nào?",
+    "options": [
+      "A. Tự giác, có tổ chức của đông đảo quần chúng nhân dân.",
+      "B. Tự giác của đông đảo quần chúng nhân dân.",
+      "C. Có tổ chức của một số bộ phận quần chúng nhân dân .",
+      "D. Tự phát ở một số bộ phận quần chúng nhân dân."
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Câu 168: Vị trí của phong trào toàn dân bảo vệ an ninh Tổ quốc:",
+    "options": [
+      "A. Là nền tảng của sự nghiệp công nghiệp hóa, hiện đại hóa đất nước và bảo vệ an ninh, trật tự",
+      "B. Giữ vị trí quan trọng không thể thiếu được đối với toàn bộ sự nghiệp cách mạng của Đảng",
+      "C. Có vị trí không thể thiếu được trong bảo vệ an ninh quốc gia, trật tự an toàn xã hội",
+      "D. Là nền tảng của sự nghiệp xây dựng và bảo vệ Tổ quốc Việt Nam XHCN"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Câu 169: Tác dụng của phong trào toàn dân bảo vệ an ninh Tổ quốc:",
+    "options": [
+      "A. Trực tiếp trong phòng ngừa đấu tranh chống tội phạm",
+      "B. Giúp lực lượng công an có điều kiện tuyên truyền pháp luật về phòng chống tội phạm.",
+      "C. Giúp lực lượng công an có điều kiện tuyên truyền chủ trương chính sách của Đảng.",
+      "D. Giúp lực lượng công an nắm vững thủ đoạn hoạt động của các loại tội phạm"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Câu 170: Phong trào toàn dân bảo vệ an ninh Tổ quốc có tác dụng:",
+    "options": [
+      "A. Giúp cho lực lượng công an có điều kiện để triển khai sâu rộng các mặt công tác nghiệp vụ.",
+      "B. Giúp lực lượng công an có điều kiện tuyên truyền pháp luật về phòng chống tội phạm.",
+      "C. Giúp lực lượng công an có điều kiện tuyên truyền chủ trương chính sách của Đảng.",
+      "D. Giúp lực lượng công an nắm vững thủ đoạn hoạt động của các loại tội phạm ."
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Câu 171: Đặc điểm của phong trào toàn dân bảo vệ an ninh Tổ quốc?",
+    "options": [
+      "A. Đối tượng tham gia đa dạng, liên quan đến mọi người, mọi tầng lớp xã hội.",
+      "B. Nội dung, hình thức, phương pháp xây dựng có sự khác nhau ở các địa bàn.",
+      "C. Gắn liền với các cuộc vận động khác của Đảng và nhà nước.",
+      "D. Tất cả đều đúng"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Câu 172: Một trong những nội dung cơ bản của công tác xây dựng phong trào toàn dân bảo vệ an ninh Tổ quốc là:",
+    "options": [
+      "A. Vận động toàn dân nâng cao tinh thần cảnh giác cách mạng trong nhiệm vụ bảo vệ Tổ quốc.",
+      "B. Vận động toàn dân tích cực tham gia chương trình quốc gia phòng chống tội phạm.",
+      "C. Kết hợp chặt chẽ giữa quốc phòng với an ninh ở địa phương, đơn vị.",
+      "D. Kết hợp chặt chẽ giữa phát triển kinh tế xã hội với bài trừ tệ nạn xã hội, hủ tục lạc hậu."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Câu 173: Một trong những phương pháp xây dựng phong trào toàn dân bảo vệ an ninh Tổ quốc là :",
+    "options": [
+      "A. Xây dựng tổ chức Đảng, chính quyền, đoàn thể quần chúng tại cơ sở vững mạnh.",
+      "B. Xây dựng mở rộng liên kết, phối hợp giữa các ban, ngành, đoàn thể.",
+      "C. Nắm tình hình và xây dựng kế hoạch phát động phong trào toàn dân bảo vệ an ninh Tổ quốc.",
+      "D. Nắm tình hình và vận động toàn dân tham gia phong trào bảo vệ an ninh trật tự, an toàn xã hội. 24"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Câu 174: Một trong những nội dung nắm tình hình trong phát động phong trào toàn dân bảo vệ an ninh Tổ quốc:",
+    "options": [
+      "A. Vị trí địa lý, đặc điểm địa bàn, về phân bố dân cư, phong tục tập quán...có liên quan.",
+      "B. Vị trí địa lý, địa hình, vùng dân cư, tình hình kinh tế, văn hoá, xã hội có liên quan.",
+      "C. Đi sát cơ sở tiếp xúc, gặp gỡ, thu thập ý kiến nắm tình hình liên quan đến an ninh chính trị.",
+      "D. Trực tiếp khảo sát điều tra của tổ chức Đảng, chính quyền, đoàn thể và quần chúng nhân dân."
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Câu 175: Một trong những nội dung của kế hoạch phát động phong trào toàn dân bảo vệ an ninh Tổ quốc là:",
+    "options": [
+      "A. Gửi văn bản dự thảo kế hoạch đến tổ chức, cá nhân có liên quan tham gia góp ý, bổ sung.",
+      "B. Xác định mục đích, yêu cầu cụ thể phải đạt được của phong trào toàn dân bảo vệ an ninh Tổ quốc.",
+      "C. Tiếp thu ý kiến của tập thể, tiến hành nghiên cứu bổ sung kế hoạch phát động toàn dân bảo vệ Tổ  quốc.",
+      "D. Đảm bảo đủ nội dung, đúng quy tắc về thể thức văn bản quản lý Nhà nước."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Câu 176: Một trong những phương pháp tuyên truyền giáo dục quần chúng nhân dân thực hiện nhiệm vụ bảo vệ an ninh Tổ quốc là :",
+    "options": [
+      "A. Triệt để khai thác sử dụng phương tiện thông tin đại chúng.",
+      "B. Tuyên truyền giáo dục nhân dân xây dựng đời sống văn hoá.",
+      "C. Vận động nhân dân chấp hành giao thông, trật tự công cộng.",
+      "D. Xây dựng cụm dân cư có nếp sống văn hoá, thuần phong mỹ tục."
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Câu 177: Nội dung, yêu cầu xây dựng các tổ chức quần chúng làm nòng cốt phong trào toàn dân bảo vệ an ninh Tổ quốc?",
+    "options": [
+      "A. Lựa chọn đội ngũ cán bộ đương chức có quyền hành, có năng lực.",
+      "B. Lựa chọn người có uy tín, năng lực được quần chúng tín nhiệm.",
+      "C. Lựa chọn đội ngũ cán bộ là các cựu chiến binh, công an.",
+      "D. Tất cả đều đúng."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Câu 178: Phương pháp xây dựng các tổ chức quần chúng nòng cốt trong phong trào bảo vệ an ninh Tổ quốc:",
+    "options": [
+      "A. Xác định chức năng, nhiệm vụ, quyền hạn của tổ chức quần chúng được xây dựng.",
+      "B. Đề xuất cấp uỷ, chính quyền ra quyết định thành lập tổ chức quần chúng bảo vệ an ninh trật tự.",
+      "C. Xác định hình thức tổ chức quần chúng cần xây dựng.",
+      "D. Tất cả  đều đúng"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Câu 179: Vai trò của quần chúng trong bảo vệ an ninh Tổ quốc, được thể hiện:",
+    "options": [
+      "A. Khả năng phát hiện, quản lý, giáo dục, cải tạo các loại tội phạm",
+      "B. Khả năng nắm bắt mọi hoạt động của các đối tượng phạm tội",
+      "C. Khả năng trực tiếp phòng chống, tố giác tấn công tội phạm.",
+      "D. Khả năng kiểm tra, kiểm soát các loại tội phạm trong khu vực họ sinh sống."
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Câu 180: Đối tượng tham gia phong trào toàn dân bảo vệ an ninh Tổ quốc?",
+    "options": [
+      "A. Công an, quân đội, sinh viên.",
+      "B. Mọi người, mọi tầng lớp trong xã hội.",
+      "C. Công an nhân dân, cảnh sát nhân dân",
+      "D. Lực lượng dân quân ở địa phương. 25"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Câu 181: Để nhân rộng điển hình tiên tiến trong phong trào bảo vệ an ninh Tổ quốc cần làm các công việc:",
+    "options": [
+      "A. Lựa chọn điển hình tiên tiến",
+      "B. Tổ chức rút kinh nghiệm điển hình tiên tiến C . Phổ biến kinh nghiệm điển hình tiên tiến",
+      "D. Tất cả đều đúng"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Câu 182: Trách nhiệm của SV trong xây dựng phong trào bảo vệ an ninh Tổ quốc.",
+    "options": [
+      "A. Sinh viên hiểu biết và tự hào về phong trào toàn dân bảo vệ an ninh Tổ quốc.",
+      "B. Sinh viên nắm chắc phong trào để áp dụng khi ra trường đi làm.",
+      "C. Sinh viên phải có nhận thức đúng đắn đầy đủ về trách nhiệm công dân",
+      "D. Sinh viên củng cố kiến thức về quốc phòng – an ninh."
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Câu 183: Trách nhiệm của sinh viên trong xây dựng phong trào toàn dân bảo vệ an ninh Tổ quốc:",
+    "options": [
+      "A. Đây là một nhiệm vụ quan trọng sinh viên tự giác chấp hành.",
+      "B. Đây là nhiệm vụ chủ yếu mà bắt buộc sinh viên phải tham gia..",
+      "C. Đây là phong trào sinh viên không nhất thiết phải tham gia.",
+      "D. Đây là phong trào sinh viên tổ chức tham gia."
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Câu 184: Trách nhiệm của sinh viên trong xây dựng phong trào toàn dân bảo vệ an ninh Tổ quốc:",
+    "options": [
+      "A. Tích cực tham gia vào các phong trào bảo vệ an ninh trật tự của địa phương.",
+      "B. Sinh viên phải tham gia đầy đủ các hoạt động trong phòng chống tội phạm..",
+      "C. Đây là phong trào quần chúng, sinh viên không nhất thiết phải tham gia.",
+      "D. Đây là phong trào sinh viên nên tổ chức tham gia. BÀI 11 ( 16 câu ) NHỮNG VẤN ĐỀ CƠ BẢN VỀ BẢO VỆ AN NINH TRẬT TỰ, AN TOÀN XÃ HỘI"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Câu 185: Bảo vệ an ninh quốc gia là gì?",
+    "options": [
+      "A. Phòng ngừa, phát hiện, ngăn chặn, đấu tranh làm thất bại các hoạt động xâm hại an ninh quốc gia.",
+      "B. Phòng ngừa, phát hiện, ngăn chặn đấu tranh các hành động gây rối của kẻ thù.",
+      "C. Bảo vệ bí mật Nhà nước và các mục tiêu quan trọng về an ninh quốc gia.",
+      "D. Bảo vệ các công trình, cơ sở chính trị quốc gia, khoa học công nghệ của Nhà nước."
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Câu 186: Một trong những nhiệm vụ bảo vệ an ninh quốc gia là:",
+    "options": [
+      "A. Bảo vệ an ninh biên giới, văn hoá, thông tin, tôn giáo.",
+      "B. Bảo vệ bí mật các tổ chức chính trị - xã hội và các công trình quốc phòng – an ninh.",
+      "C. Bảo vệ an ninh kinh tế, quốc phòng, đối ngoại và các lợi ích khác của quốc gia.",
+      "D. Bảo vệ bí mật các cấp chính quyền, sự nghiệp công nghiệp hoá, hiện đại hoá đất nước."
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Câu 187: Một trong những nhiệm vụ bảo vệ an ninh quốc gia là:",
+    "options": [
+      "A. Bảo vệ an ninh biên giới, văn hoá, thông tin, tôn giáo.",
+      "B. Bảo vệ bí mật các tổ chức chính trị - xã hội và các công trình quốc phòng – an ninh.",
+      "C. Bảo vệ bí mật của Nhà nước và các mục tiêu quan trọng về an ninh quốc gia.",
+      "D. Bảo vệ bí mật các cấp chính quyền, sự nghiệp công nghiệp hoá, hiện đại hoá đất nước. 26"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Câu 188: Một trong những n guyên tắc bảo vệ an ninh quốc gia là:",
+    "options": [
+      "A. Bảo vệ an ninh tư tưởng văn hoá, khối đại đoàn kết dân tộc, quyền lợi của nhân dân.",
+      "B. Phòng ngừa phát hiện, ngăn chặn làm thất bại các hoạt động xâm phạm an ninh quốc gia.",
+      "C. Đặt dưới sự lãnh đạo của Đảng CSVN, sự quản lý của Nhà nước.",
+      "D. Bảo vệ bí mật của Nhà nước và các mục tiêu quan trọng."
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Câu 189: Bảo vệ an ninh quốc gia cần tuân thủ những nguyên tắc là gì?",
+    "options": [
+      "A. Tuân thủ Hiến pháp, pháp luật, bảo đảm lợi ích của nhà nước, của các tổ chức và cá nhân.",
+      "B. Kết hợp chặt chẽ nhiệm vụ bảo vệ ANQG với nhiệm vụ XD  phát triển KT - VH, XH",
+      "C. Đặt dưới sự lãnh đạo của Đảng, sự quản lí thống nhất của nhà nước",
+      "D. Tất cả đều đúng"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Câu 190: Một trong những cơ quan chuyên trách bảo vệ an ninh quốc gia là:",
+    "options": [
+      "A. Công an, quân đội, biên phòng, dân quân tự vệ, dự bị động viên và các tổ chức chính trị.",
+      "B. Công an, bộ đội chủ lực, bộ đội biên phòng, dân quân tự vệ và tình báo quân đội nhân dân.",
+      "C. Cơ quan chỉ đạo, chỉ huy và các đơn vị bảo vệ an ninh quân đội, tình báo quân đội nhân dân.",
+      "D. Cơ quan chỉ đạo, chỉ huy công an, bộ đội hải quân, cảnh sát biển."
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Câu 191: Cơ quan chuyên trách bảo vệ an ninh quốc gia khu vực biên giới trên đất liền và trên biển:",
+    "options": [
+      "A. Bộ đội biên giới, Cảnh sát biển",
+      "B. Bộ đội Biên phòng, Cảnh sát nhân dân",
+      "C. Bộ đội Biên phòng, Cảnh sát biển",
+      "D. Lực lượng kiểm ngư, lực lượng biên phòng."
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Câu 192: Các biện pháp bảo vệ an ninh quốc gia là gì?",
+    "options": [
+      "A. Vận động quần chúng.",
+      "B. Kinh tế, vũ trang",
+      "C. Ngoại giao, nghiệp vụ, pháp luật.",
+      "D. Tất cả đều đúng"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Câu 193: Bảo vệ trật tự an toàn xã hội là nhiệm vụ của ai?",
+    "options": [
+      "A. Toàn Đảng, toàn dân,toàn quân lực lượng Công an nhân dân giữ vai trò nòng cốt.",
+      "B. Toàn Đảng, toàn dân, lực lượng Công an nhân dân giữ vai trò nòng cốt",
+      "C. Toàn dân, lực lượng Công an nhân dân giữ vai trò nòng cốt",
+      "D. Công an, an ninh và lực lượng vũ trang nhân dân"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Câu 194: Lĩnh vực nào sau đây được coi là cốt lõi trong bảo vệ an ninh quốc gia?",
+    "options": [
+      "A. An ninh biên giới.",
+      "B. An ninh chính trị nội bộ.",
+      "C. An ninh kinh tế.",
+      "D. An ninh tư tưởng, văn hoá. 27"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Câu 195: Hiện nay Việt Nam ta khẳng định đối tác là :",
+    "options": [
+      "A. Những quốc gia, vùng lãnh thổ, tổ chức phi Chính phủ tạo điều kiện thuận lợi cho Việt Nam",
+      "B. Những nước xã hội chủ nghĩa và các nước đang phát triển giúp đỡ Việt Nam.",
+      "C. Những ai chủ trương tôn trọng độc lập, chủ quyền và hợp tác bình đẳng cùng có lợi với Việt Nam.",
+      "D. Những tổ chức, cá nhân tôn trọng giúp đỡ Việt Nam."
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Câu 196: Đối tượng xâm phạm đến an ninh quốc gia trong tình hình hiện nay là :",
+    "options": [
+      "A. Bọn tội phạm kinh tế, hình sự.",
+      "B. Bọn gián điệp, bọn phản động.",
+      "C. Các đối tượng xâm phạm về trật tự an toàn xã hội.",
+      "D. Các phần tử có tư tưởng sai trái, bất mãn, chống chủ nghĩa xã hội."
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Câu 197: Một trong những quan điểm của Đảng, Nhà nước ta về bảo vệ an ninh quốc gia, trật tự an toàn xã hội ?",
+    "options": [
+      "A. Đảng lãnh đạo trực tiếp, tuyệt đối về mọi mặt bảo vệ an ninh quốc gia.",
+      "B. Công an là lực lượng nòng cốt, tăng cường hiệu lực quản lý của Nhà nước.",
+      "C. Kết hợp chặt chẽ nhiệm vụ xây dựng với nhiệm vụ bảo vệ Tổ quốc.",
+      "D. Phát huy quyền làm chủ của nhân dân trên tất cả các lĩnh vực..."
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Câu 198: “Ngăn chặn các hoạt động truyền bá văn hóa phẩm phản động, đồi trụy...” thuộc nội dung nào trong bảo vệ an ninh quốc gia?",
+    "options": [
+      "A. Bảo vệ an ninh dân tộc",
+      "B. Bảo vệ an ninh thông tin",
+      "C. Bảo vệ an ninh văn hóa, tư tưởng.",
+      "D. Bảo vệ an ninh chính trị nội bộ trong Câu 199: Trách nhiệm của sinh viên bảo vệ an ninh quốc gia, trật tự an toàn xã hội ?",
+      "A. Sinh viên phải nhận thức đây là một bộ phận của cuộc đấu tranh giai cấp",
+      "B. Đây là nhiệm vụ rất khó khăn và phức tạp bắt buộc sinh viên phải tham gia..",
+      "C. Sinh viên phải nhận thức đây là một nhiệm vụ quan trọng phải tự giác tham gia",
+      "D. Sinh viên phải nhận thức đây là phong trào không chỉ sinh viên mà mọi tổ chức tham gia."
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Câu 200: Bảo vệ các cơ quan đại diện, cán bộ, sinh viên và người lao động Việt Nam ở nước ngoài, thuộc nội dung nào trong bảo vệ an ninh quốc gia?",
+    "options": [
+      "A. Bảo vệ an ninh kinh tế",
+      "B. Bảo vệ an ninh dân tộc",
+      "C. Bảo vệ an ninh chính trị nội bộ",
+      "D. Bảo vệ an ninh văn hoá, tư tưởng Tp. HCM, ngày 23 tháng 8 năm 2023 TTGD QUỐC PHÒNG,AN NINH. 28"
+    ],
+    "answer": 2
+  }
+]
